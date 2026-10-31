@@ -26,7 +26,7 @@ https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
 
 # ---- AdGuard / uBlock (ABP) 格式的高质量聚合列表 ----
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt
-https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/filter.txt
+https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 https://small.oisd.nl/
 
 # ---- 恶意/钓鱼 hosts ----

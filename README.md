@@ -7,7 +7,7 @@
 - **`lists/whitelist.txt`** — 白名单（永不拦截的域名）
 
 > 核心思想：不追求"域名越多越好"，而是**只保留被多个权威源共同确认的、最常见的广告/追踪域名**，
-> 数量可控（默认 1000 条），可直接作为 Cloudflare Gateway `DOMAIN` 列表使用。
+> 数量可控（默认 12000 条），可直接作为 Cloudflare Gateway `DOMAIN` 列表使用。
 > 本仓库**不做任何上传/同步**，只负责生成文件并提供随时可用的下载链接。
 
 ---
@@ -57,7 +57,7 @@
 2. **解析**为域名集合，统计每个域名在**多少个不同源**里出现 → 跨列表频次。
 3. **共识过滤**：仅保留出现在 `MIN_SOURCES`（默认 2）个及以上源里的域名，过滤长尾噪声与误杀。
 4. **排序**：频次降序 → 字典序（确定性 tie-break）。
-5. **封顶**：取 Top `MAX_ENTRIES`（默认 1000）写入 `domains.txt`。
+5. **封顶**：取 Top `MAX_ENTRIES`（默认 12000）写入 `domains.txt`。
 
 结果 = 全网最常见、被最多广告列表共同确认的域名，单个文件、数量可控。
 
@@ -104,14 +104,14 @@ example.com        # 精确放行
    | 拦截广告 | `Domain` `in list` = 拦截列表 | **Block** | 200 |
 
    > Allow 的 precedence 必须小于 Block，白名单才会优先生效。
-   > Standard 计划单列表上限 1000 条，Enterprise 5000 条 —— 这就是默认封顶 1000 的原因。
+   > 默认封顶 12000 条（实测 Gateway DOMAIN 列表可接受）。若上传被拒，可调低：Standard 1000 / Enterprise 5000。
 
 ### 5. 本地运行
 
 ```bash
 python scripts/build_list.py
 # 可选参数：
-#   --max-entries 1000   --min-sources 2
+#   --max-entries 12000  --min-sources 2
 #   --sources config/sources.txt  --whitelist config/whitelist.txt  --out-dir lists
 ```
 
@@ -121,12 +121,12 @@ python scripts/build_list.py
 
 | 目标 | 设置 |
 |---|---|
-| 更纯净、极少误杀 | `MIN_SOURCES=3`，`MAX_ENTRIES=1000` |
-| 覆盖更广（Enterprise） | `MAX_ENTRIES=5000` |
+| 更纯净、极少误杀 | `MIN_SOURCES=3`，`MAX_ENTRIES=12000` |
+| 覆盖更广 | `MAX_ENTRIES=50000`（或更高） |
 | 遇到误杀 | 把域名（或 `*.域名`）加入 `config/whitelist.txt` |
 
 > 若只在本仓库外消费列表（如 AdGuard / Pi-hole），`MAX_ENTRIES` 可以自由调大；
-> 若要上传到 Cloudflare Gateway，请遵守 1000（Standard）/ 5000（Enterprise）的上限。
+> 若上传到 Cloudflare Gateway 被拒，按计划调低：Standard 1000 / Enterprise 5000；默认 12000 已实测可接受。
 
 ---
 

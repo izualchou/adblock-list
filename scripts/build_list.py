@@ -38,7 +38,7 @@ DEFAULT_SOURCES = os.path.join(_HERE, "..", "config", "sources.txt")
 DEFAULT_WHITELIST = os.path.join(_HERE, "..", "config", "whitelist.txt")
 DEFAULT_OUT_DIR = os.path.join(_HERE, "..", "lists")
 
-MAX_ENTRIES = int(os.environ.get("MAX_ENTRIES", "1000"))      # 拦截列表封顶
+MAX_ENTRIES = int(os.environ.get("MAX_ENTRIES", "12000"))     # 拦截列表封顶
 MIN_SOURCES = int(os.environ.get("MIN_SOURCES", "2"))         # 至少出现在几个源里
 TIMEOUT = int(os.environ.get("FETCH_TIMEOUT", "30"))
 
