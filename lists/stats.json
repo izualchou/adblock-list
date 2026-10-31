@@ -1,0 +1,187 @@
+{
+  "generated_at": "2026-10-31T10:38:01.908267+00:00",
+  "sources_total": 18,
+  "sources_ok": 17,
+  "total_raw_lines": 771285,
+  "unique_domains_after_parse": 477428,
+  "after_consensus_filter": 166167,
+  "blocklist_count": 1000,
+  "whitelist_count": 3047,
+  "max_entries": 1000,
+  "min_sources": 2,
+  "top_20": [
+    {
+      "domain": "ad-delivery.net",
+      "sources": 10
+    },
+    {
+      "domain": "adrta.com",
+      "sources": 10
+    },
+    {
+      "domain": "alphonso.tv",
+      "sources": 10
+    },
+    {
+      "domain": "analytics.yahoo.com",
+      "sources": 10
+    },
+    {
+      "domain": "bttrack.com",
+      "sources": 10
+    },
+    {
+      "domain": "mgid.com",
+      "sources": 10
+    },
+    {
+      "domain": "ml314.com",
+      "sources": 10
+    },
+    {
+      "domain": "samsungads.com",
+      "sources": 10
+    },
+    {
+      "domain": "sc-analytics.appspot.com",
+      "sources": 10
+    },
+    {
+      "domain": "360yield.com",
+      "sources": 9
+    },
+    {
+      "domain": "a-ads.com",
+      "sources": 9
+    },
+    {
+      "domain": "ads.linkedin.com",
+      "sources": 9
+    },
+    {
+      "domain": "adsafeprotected.com",
+      "sources": 9
+    },
+    {
+      "domain": "adskeeper.co.uk",
+      "sources": 9
+    },
+    {
+      "domain": "adsupply.com",
+      "sources": 9
+    },
+    {
+      "domain": "adtng.com",
+      "sources": 9
+    },
+    {
+      "domain": "adviva.net",
+      "sources": 9
+    },
+    {
+      "domain": "app-analytics.snapchat.com",
+      "sources": 9
+    },
+    {
+      "domain": "bat.bing.com",
+      "sources": 9
+    },
+    {
+      "domain": "clevernt.com",
+      "sources": 9
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+      "ok": true,
+      "domains": 76034
+    },
+    {
+      "url": "https://adaway.org/hosts.txt",
+      "ok": true,
+      "domains": 6512
+    },
+    {
+      "url": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
+      "ok": true,
+      "domains": 3551
+    },
+    {
+      "url": "https://v.firebog.net/hosts/Easylist.txt",
+      "ok": true,
+      "domains": 50484
+    },
+    {
+      "url": "https://v.firebog.net/hosts/Easyprivacy.txt",
+      "ok": true,
+      "domains": 43083
+    },
+    {
+      "url": "https://v.firebog.net/hosts/AdguardDNS.txt",
+      "ok": true,
+      "domains": 188924
+    },
+    {
+      "url": "https://v.firebog.net/hosts/Prigent-Ads.txt",
+      "ok": true,
+      "domains": 4262
+    },
+    {
+      "url": "https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt",
+      "ok": true,
+      "domains": 42206
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt",
+      "ok": true,
+      "domains": 76
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt",
+      "ok": true,
+      "domains": 487
+    },
+    {
+      "url": "https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/trackers.hosts",
+      "ok": true,
+      "domains": 15174
+    },
+    {
+      "url": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
+      "ok": true,
+      "domains": 42974
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt",
+      "ok": true,
+      "domains": 312
+    },
+    {
+      "url": "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt",
+      "ok": true,
+      "domains": 2195
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt",
+      "ok": true,
+      "domains": 222438
+    },
+    {
+      "url": "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/filter.txt",
+      "ok": false,
+      "domains": 0,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://small.oisd.nl/",
+      "ok": true,
+      "domains": 58608
+    },
+    {
+      "url": "https://raw.githubusercontent.com/curbengh/urlhaus-filter/master/urlhaus-filter-hosts.txt",
+      "ok": true,
+      "domains": 6084
+    }
+  ]
+}
