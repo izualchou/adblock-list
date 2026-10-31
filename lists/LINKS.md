@@ -14,4 +14,4 @@
 - domains.csv（带表头，供 Cloudflare 手动上传）: https://raw.githubusercontent.com/izualchou/adblock-list/main/lists/domains.csv
 - stats.json（构建统计）: https://raw.githubusercontent.com/izualchou/adblock-list/main/lists/stats.json
 
-更新时间（UTC）：2026-10-31 10:56:46
+更新时间（UTC）：2026-10-31 10:57:28
