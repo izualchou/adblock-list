@@ -2,8 +2,8 @@ name: Update Ad Blocklist
 
 on:
   schedule:
-    # 每周一 06:00 UTC 自动重建（可按需调整）
-    - cron: '0 6 * * 1'
+    # 每天 06:00 UTC 自动重建（可按需调整）
+    - cron: '0 6 * * *'
   workflow_dispatch:        # 允许手动触发
   push:
     paths:
