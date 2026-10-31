@@ -21,12 +21,18 @@ if [ -n "$1" ]; then
   git remote add origin "$REPO"
   git push -u origin main || {
     echo ""
-    echo ">>> 首次推送失败：远程仓库可能自带 README/LICENSE。"
+    echo ">>> 首次推送失败：远程仓库可能自带 README/LICENSE 或已有历史提交。"
     echo ">>> 正在尝试合并远程文件后重新推送..."
-    git pull origin main --allow-unrelated-histories || true
+    git pull origin main --allow-unrelated-histories --no-rebase || true
     git add .
     git commit -m "$MSG" || true
-    git push -u origin main
+    git push -u origin main || {
+      echo ""
+      echo ">>> 合并后仍推送失败（本地与远程历史分叉且存在冲突）。"
+      echo ">>> 若确认远程没有需要保留的内容，手动执行强制推送："
+      echo ">>>   git push -u origin main --force"
+      exit 1
+    }
   }
 else
   # ---------- 增量更新 ----------

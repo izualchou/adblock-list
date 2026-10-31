@@ -29,7 +29,7 @@ jobs:
 
       - name: Build blocklist + whitelist
         env:
-          MAX_ENTRIES: ${{ vars.MAX_ENTRIES || '1000' }}
+          MAX_ENTRIES: ${{ vars.MAX_ENTRIES || '12000' }}
           MIN_SOURCES: ${{ vars.MIN_SOURCES || '2' }}
         run: python scripts/build_list.py
 
