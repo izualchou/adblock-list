@@ -1,0 +1,73 @@
+name: Update Ad Blocklist
+
+on:
+  schedule:
+    # 每周一 06:00 UTC 自动重建（可按需调整）
+    - cron: '0 6 * * 1'
+  workflow_dispatch:        # 允许手动触发
+  push:
+    paths:
+      - 'config/**'
+      - 'scripts/**'
+      - '.github/workflows/update.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build blocklist + whitelist
+        env:
+          MAX_ENTRIES: ${{ vars.MAX_ENTRIES || '1000' }}
+          MIN_SOURCES: ${{ vars.MIN_SOURCES || '2' }}
+        run: python scripts/build_list.py
+
+      - name: Generate download links
+        run: |
+          REPO="${{ github.repository }}"
+          BRANCH="${{ github.ref_name }}"
+          RAW="https://raw.githubusercontent.com/$REPO/$BRANCH/lists"
+          CDN="https://cdn.jsdelivr.net/gh/$REPO@$BRANCH/lists"
+          {
+            echo "# 下载链接"
+            echo
+            echo "列表每次构建自动更新，以下链接始终指向最新版本。"
+            echo
+            echo "## 拦截列表 domains.txt"
+            echo "- raw:  $RAW/domains.txt"
+            echo "- cdn:  $CDN/domains.txt"
+            echo
+            echo "## 白名单 whitelist.txt"
+            echo "- raw:  $RAW/whitelist.txt"
+            echo "- cdn:  $CDN/whitelist.txt"
+            echo
+            echo "## 其他产物"
+            echo "- domains.csv（带表头，供 Cloudflare 手动上传）: $RAW/domains.csv"
+            echo "- stats.json（构建统计）: $RAW/stats.json"
+            echo
+            echo "更新时间（UTC）：$(date -u '+%Y-%m-%d %H:%M:%S')"
+          } > lists/LINKS.md
+          cat lists/LINKS.md
+
+      - name: Commit & push result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add lists/
+          if git diff --cached --quiet; then
+            echo "无变更，跳过提交"
+          else
+            git commit -m "chore: update ad blocklist & whitelist [skip ci]"
+            git push
+          fi

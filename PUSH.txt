@@ -1,0 +1,71 @@
+==========================================================
+Termux 推送说明（本项目：广告拦截列表自动生成器）
+==========================================================
+
+一、前置准备（Termux 里只需执行一次）
+
+  pkg install git -y
+  termux-setup-storage
+
+二、方式 A：使用一键脚本（推荐）
+
+  1. 把解压出来的文件夹放到手机 Download 目录，例如：
+     /storage/emulated/0/Download/adblock-github-repo
+
+  2. 首次推送（把仓库地址换成你自己的）：
+
+     cd /storage/emulated/0/Download/adblock-github-repo
+     bash termux_push.sh https://github.com/你的用户名/仓库名.git
+
+  3. 之后每次更新只需：
+
+     bash termux_push.sh
+
+三、方式 B：手动逐条执行
+
+  首次推送：
+
+  cd /storage/emulated/0/Download/adblock-github-repo
+  git init
+  git branch -M main
+  git add .
+  git commit -m "upload from workbuddy android termux"
+  git remote add origin https://github.com/你的用户名/仓库名.git
+  git push -u origin main
+
+  后续更新：
+
+  cd /storage/emulated/0/Download/adblock-github-repo
+  git add .
+  git commit -m "upload from workbuddy android termux"
+  git push
+
+四、身份验证
+
+  push 时提示 Username：填 GitHub 账号名
+  提示 Password：粘贴 PAT 令牌（不是 GitHub 登录密码）
+  粘贴后屏幕不显示字符是正常的，直接回车
+
+五、远程仓库自带 README 冲突
+
+  若 push 被拒绝（non-fast-forward）：
+
+  git pull origin main --allow-unrelated-histories
+
+  若提示 CONFLICT，编辑冲突文件删除 <<<<<<< ======= >>>>>>> 标记后：
+
+  git add .
+  git commit -m "upload from workbuddy android termux"
+  git push
+
+  或者确定要覆盖远程初始文件时：
+
+  git push -u origin main --force
+
+六、推送后
+
+  打开 GitHub 仓库 -> Actions 页，手动运行 "Update Ad Blocklist"
+  （或等每周一自动运行），之后 lists/ 目录会生成：
+    - domains.txt    拦截列表
+    - whitelist.txt  白名单
+    - LINKS.md       两者的随时可用的下载链接

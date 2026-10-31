@@ -1,0 +1,33 @@
+# ============================================================================
+# 广告 / 追踪 / 恶意域名 源列表（每行一个 URL，# 开头的行是注释）
+# 格式（hosts / AdGuard ABP / 纯域名）由 build_list.py 自动识别，无需标注。
+# 建议只保留互相「有重叠」的优质源：重叠越多 -> 跨列表频次越高 -> 越可能是真广告。
+# ============================================================================
+
+# ---- 综合合并型 hosts（ads + tracking + malware）----
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+https://adaway.org/hosts.txt
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+
+# ---- Firebog 精选 hosts 子集 ----
+https://v.firebog.net/hosts/Easylist.txt
+https://v.firebog.net/hosts/Easyprivacy.txt
+https://v.firebog.net/hosts/AdguardDNS.txt
+https://v.firebog.net/hosts/Prigent-Ads.txt
+
+# ---- 专项 hosts ----
+https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
+https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/trackers.hosts
+https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt
+https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
+https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
+
+# ---- AdGuard / uBlock (ABP) 格式的高质量聚合列表 ----
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt
+https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/filter.txt
+https://small.oisd.nl/
+
+# ---- 恶意/钓鱼 hosts ----
+https://raw.githubusercontent.com/curbengh/urlhaus-filter/master/urlhaus-filter-hosts.txt
