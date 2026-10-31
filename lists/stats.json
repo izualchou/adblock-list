@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-31T10:47:14.292519+00:00",
+  "generated_at": "2026-10-31T10:48:58.347066+00:00",
   "sources_total": 18,
-  "sources_ok": 17,
-  "total_raw_lines": 771285,
-  "unique_domains_after_parse": 477428,
-  "after_consensus_filter": 166167,
+  "sources_ok": 18,
+  "total_raw_lines": 956351,
+  "unique_domains_after_parse": 481635,
+  "after_consensus_filter": 244471,
   "blocklist_count": 1000,
   "whitelist_count": 3047,
   "max_entries": 1000,
@@ -12,83 +12,83 @@
   "top_20": [
     {
       "domain": "ad-delivery.net",
-      "sources": 10
+      "sources": 11
     },
     {
       "domain": "adrta.com",
-      "sources": 10
+      "sources": 11
     },
     {
       "domain": "alphonso.tv",
-      "sources": 10
+      "sources": 11
     },
     {
       "domain": "analytics.yahoo.com",
-      "sources": 10
+      "sources": 11
     },
     {
       "domain": "bttrack.com",
-      "sources": 10
+      "sources": 11
     },
     {
       "domain": "mgid.com",
-      "sources": 10
+      "sources": 11
     },
     {
       "domain": "ml314.com",
-      "sources": 10
+      "sources": 11
     },
     {
       "domain": "samsungads.com",
-      "sources": 10
+      "sources": 11
     },
     {
       "domain": "sc-analytics.appspot.com",
-      "sources": 10
+      "sources": 11
     },
     {
       "domain": "360yield.com",
-      "sources": 9
+      "sources": 10
     },
     {
       "domain": "a-ads.com",
-      "sources": 9
+      "sources": 10
     },
     {
       "domain": "ads.linkedin.com",
-      "sources": 9
+      "sources": 10
     },
     {
       "domain": "adsafeprotected.com",
-      "sources": 9
+      "sources": 10
     },
     {
       "domain": "adskeeper.co.uk",
-      "sources": 9
+      "sources": 10
     },
     {
       "domain": "adsupply.com",
-      "sources": 9
+      "sources": 10
     },
     {
       "domain": "adtng.com",
-      "sources": 9
+      "sources": 10
     },
     {
       "domain": "adviva.net",
-      "sources": 9
+      "sources": 10
     },
     {
       "domain": "app-analytics.snapchat.com",
-      "sources": 9
-    },
-    {
-      "domain": "bat.bing.com",
-      "sources": 9
+      "sources": 10
     },
     {
       "domain": "clevernt.com",
-      "sources": 9
+      "sources": 10
+    },
+    {
+      "domain": "clksite.com",
+      "sources": 10
     }
   ],
   "sources": [
@@ -168,10 +168,9 @@
       "domains": 222438
     },
     {
-      "url": "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/filter.txt",
-      "ok": false,
-      "domains": 0,
-      "error": "HTTP Error 404: Not Found"
+      "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
+      "ok": true,
+      "domains": 183500
     },
     {
       "url": "https://small.oisd.nl/",
