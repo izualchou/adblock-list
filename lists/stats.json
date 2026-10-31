@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-31T10:49:37.219582+00:00",
+  "generated_at": "2026-10-31T10:56:46.504260+00:00",
   "sources_total": 18,
   "sources_ok": 18,
   "total_raw_lines": 956351,
   "unique_domains_after_parse": 481635,
   "after_consensus_filter": 244471,
-  "blocklist_count": 1000,
+  "blocklist_count": 12000,
   "whitelist_count": 3047,
-  "max_entries": 1000,
+  "max_entries": 12000,
   "min_sources": 2,
   "top_20": [
     {
