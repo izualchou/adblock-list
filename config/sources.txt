@@ -1,0 +1,84 @@
+# ============================================================================
+# 广告 / 追踪 / 恶意域名 源列表
+# 每行格式：  URL  [权重]  [地区]
+#   - URL    ：源地址（hosts / AdGuard ABP / 纯域名，build_list.py 自动识别）
+#   - 权重   ：可选，浮点数，默认 1.0。越大 = 越权威 / 更新越频繁 / 维护越活跃。
+#              （编码「更新频繁」与权威度；加权求和进评分）
+#   - 地区   ：可选，cn=中文专精 / west=西方英文专精 / global=全球合并型，默认 global。
+#              （编码「优先中文」，命中 cn 源的域名额外加分）
+# # 开头的行是注释，会被忽略。
+#
+# 源分类与数量（共 32 个）：
+#   - 全球合并型      5 个（西方维护但覆盖全球，含中文规则）
+#   - 西方/英文专精  13 个（主要针对英语/西方站点）
+#   - 中文专精       14 个  <-- 数量已超过「西方/英文专精」(13)，确保中文命中率占优
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# 一、全球合并型（5 个）— 西方维护，但聚合了全球（含中文）规则
+# ----------------------------------------------------------------------------
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts                                                         3  global
+https://adaway.org/hosts.txt                                                                                            2  global
+https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt                                                       3  global
+https://small.oisd.nl/                                                                                                  3  global
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt                                       3  global
+
+# ----------------------------------------------------------------------------
+# 二、西方/英文专精（13 个）— 主要针对英语/西方站点与通用恶意/追踪
+# ----------------------------------------------------------------------------
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext                           2  west
+https://v.firebog.net/hosts/Easylist.txt                                                                               2  west
+https://v.firebog.net/hosts/Easyprivacy.txt                                                                            2  west
+https://v.firebog.net/hosts/AdguardDNS.txt                                                                             2  west
+https://v.firebog.net/hosts/Prigent-Ads.txt                                                                            2  west
+https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt                                             2  west
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt                                 1  west
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt                                          1  west
+https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/trackers.hosts                                              1  west
+https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt                                       1  west
+https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt                                       1  west
+https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt                                          1  west
+https://raw.githubusercontent.com/curbengh/urlhaus-filter/master/urlhaus-filter-hosts.txt                              3  west
+
+# ----------------------------------------------------------------------------
+# 三、中文专精（14 个）— 针对中国大陆/中文站点，覆盖广告、视频、APP、盒子等
+# 数量已超过上方「西方/英文专精」(13)，确保中文命中率占优。
+# ----------------------------------------------------------------------------
+
+# Anti-AD：中文区命中率最高的合并列表（含电视盒子/APP广告/隐私统计）
+https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-easylist.txt                                3  cn
+
+# EasyList China：EasyList 官方中文补充规则
+https://easylist-downloads.adblockplus.org/easylistchina.txt                                                           2  cn
+
+# CJX's Annoyance List（去自我推广）+ CJX's EasyList Lite（简体中文精简版）
+https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt                                           2  cn
+https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt                                                 2  cn
+
+# yhosts：国内网站广告 hosts 规则（VeleSila 维护版）
+https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt                                                    2  cn
+
+# 大圣净化：国内视频/APP 内置广告
+https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts                                                       2  cn
+
+# AWAvenue Ads Rule：中文区广告/视频/APP 广告
+https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt                            2  cn
+
+# 乘风规则（通用）+ 乘风视频规则
+https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt                                           2  cn
+https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt                                             1  cn
+
+# AdRules DNS List：Cats-Team 中文聚合大列表（DNS 格式）
+https://adrules.top/dns.txt                                                                                             3  cn
+
+# ADgk：适用于 AdGuard/AGH 的国内去广告（视频APP、开屏广告）
+https://cdn.jsdelivr.net/gh/banbendalao/ADgk@master/ADgk.txt                                                           2  cn
+
+# ChinaList2.0：国内大部分视频/网站广告过滤
+https://raw.githubusercontent.com/Zsy-2014/ChinaList2.0/master/ChinaList2.0.txt                                      2  cn
+
+# JieKouAD（damengzhu/banad）：国内盗版/资源站广告接口
+https://cdn.jsdelivr.net/gh/damengzhu/banad@main/jiekouAD.txt                                                         1  cn
+
+# 1024_hosts（Goooler）：1024 站点与博彩类域名
+https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts                                                     1  cn

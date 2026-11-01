@@ -1,0 +1,48 @@
+# ============================================================================
+# 白名单（whitelist）：永不拦截的域名。生成产物 -> lists/whitelist.txt
+#
+# 写法：
+#   example.com      精确放行该域名
+#   *.example.com    放行该域名「及其所有子域」
+#                    （生成时会展开为 apex + 源列表中实际出现过的子域，
+#                     因为 Cloudflare Gateway DOMAIN 列表不支持 *. 通配符）
+#
+# 用途：
+#   1) 构建时：被命中的域名不会进入拦截列表 lists/domains.txt
+#   2) 运行时：把 lists/whitelist.txt 上传为 Gateway 列表，建一条 Allow 策略，
+#      precedence 设为比拦截策略更小的值（如 Allow=100，Block=200），优先放行
+#
+# 下面是保守默认值（保证人机验证/支付/CDN 等基础服务不被误杀），可自行增删。
+# ============================================================================
+
+# ---- 人机验证 / 登录 ----
+*.cloudflare.com
+*.hcaptcha.com
+*.recaptcha.net
+
+# ---- 支付 ----
+*.stripe.com
+*.paypal.com
+
+# ---- 常用 CDN（避免站点资源被误杀）----
+*.jsdelivr.net
+*.cloudfront.net
+*.akamaihd.net
+*.akamaized.net
+*.fastly.net
+
+# ---- 基础服务 ----
+*.googleapis.com
+*.gstatic.com
+*.apple.com
+*.icloud.com
+*.microsoft.com
+*.windowsupdate.com
+
+# ---- 视频播放（激进列表常导致播放异常）----
+*.youtube.com
+*.ytimg.com
+
+# ---- 错误 / 性能监控（常被误杀，会拖垮应用）----
+*.sentry.io
+*.sentry-cdn.com
