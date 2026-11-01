@@ -65,7 +65,11 @@ Termux 推送说明（本项目：广告拦截列表自动生成器）
 六、推送后
 
   打开 GitHub 仓库 -> Actions 页，手动运行 "Update Ad Blocklist"
+<<<<<<< HEAD
   （之后每天北京时间 09:00 左右自动运行），lists/ 目录会生成：
+=======
+  （或等每周一自动运行），之后 lists/ 目录会生成：
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
     - domains.txt    拦截列表
     - whitelist.txt  白名单
     - LINKS.md       两者的随时可用的下载链接

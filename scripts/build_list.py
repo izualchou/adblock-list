@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+<<<<<<< HEAD
 build_list.py — 抓取、合并并*加权优选*广告/追踪域名，输出两个可直接下载的列表文件。
 
 优选算法（兼顾「控制数量」与「优先中文 / 更新频繁 / 最近更新 / 最常用」）：
@@ -22,6 +23,22 @@ build_list.py — 抓取、合并并*加权优选*广告/追踪域名，输出�
   lists/domains.csv   — 同上，带表头 value,description
   lists/whitelist.txt — 白名单：永不拦截的精确域名（由 config/whitelist.txt 生成）
   lists/stats.json    — 构建统计与评分明细
+=======
+build_list.py — 抓取、合并并优选广告/追踪域名，输出两个可直接下载的列表文件。
+
+策略（满足「控制数量 + 优选最常见的 ads」）：
+  1. 下载每个源（hosts / AdGuard / domain 格式，自动识别）。
+  2. 统计每个域名在「多少个不同源」里出现（跨列表频次 = consensus 强度）。
+  3. 只保留出现在 >= MIN_SOURCES 个源里的域名（共识过滤，降低误杀）。
+  4. 按频次降序、字典序排序。
+  5. 封顶到 MAX_ENTRIES，得到单个完整列表文件。
+
+输出（全部写入 lists/）：
+  lists/domains.txt   — 拦截列表：每行一个精确域名（主产物）
+  lists/domains.csv   — 同上，带表头 value,description（供 Cloudflare 手动 CSV 上传）
+  lists/whitelist.txt — 白名单：永不拦截的精确域名（由 config/whitelist.txt 生成）
+  lists/stats.json    — 构建统计信息
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
 
 说明：Gateway DOMAIN 列表不支持 *. 通配符，因此白名单里的 `*.example.com`
 会展开为「该 apex 域名 + 源列表中实际出现过的所有子域名」，全部为精确域名。
@@ -34,7 +51,10 @@ import json
 import argparse
 import datetime
 import ipaddress
+<<<<<<< HEAD
 import time
+=======
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
 import urllib.request
 import urllib.error
 
@@ -46,6 +66,7 @@ DEFAULT_SOURCES = os.path.join(_HERE, "..", "config", "sources.txt")
 DEFAULT_WHITELIST = os.path.join(_HERE, "..", "config", "whitelist.txt")
 DEFAULT_OUT_DIR = os.path.join(_HERE, "..", "lists")
 
+<<<<<<< HEAD
 MAX_ENTRIES = int(os.environ.get("MAX_ENTRIES", "300000"))    # 拦截列表封顶（下载产物条数上限）
 MIN_SOURCES = int(os.environ.get("MIN_SOURCES", "1"))         # 至少出现在几个源里（默认 1 = 全量）
 TIMEOUT = int(os.environ.get("FETCH_TIMEOUT", "90"))          # 单源下载超时（秒）
@@ -53,6 +74,11 @@ MAX_RETRIES = int(os.environ.get("FETCH_RETRIES", "3"))       # 单源失败重�
 RETRY_BACKOFF = int(os.environ.get("FETCH_BACKOFF", "5"))     # 重试退避（秒）
 CN_BONUS = float(os.environ.get("CN_BONUS", "2.0"))          # 每命中一个中文源，评分额外加分
 NEW_BONUS = float(os.environ.get("NEW_BONUS", "1.0"))         # 本周期新增域名，评分额外加分
+=======
+MAX_ENTRIES = int(os.environ.get("MAX_ENTRIES", "12000"))     # 拦截列表封顶
+MIN_SOURCES = int(os.environ.get("MIN_SOURCES", "2"))         # 至少出现在几个源里
+TIMEOUT = int(os.environ.get("FETCH_TIMEOUT", "30"))
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
 
 # 合法域名：标签 + 2~63 字母的 TLD（不处理 IDN，Gateway 会自动转 Punycode）
 DOMAIN_RE = re.compile(
@@ -146,7 +172,11 @@ def parse_line(line: str):
 
 
 # --------------------------------------------------------------------------- #
+<<<<<<< HEAD
 # 读取源（支持 URL [权重] [地区]）
+=======
+# 读取源
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
 # --------------------------------------------------------------------------- #
 def fetch_source(url: str) -> str:
     """读取源内容：本地路径 / file:// 直接读；否则 HTTP 下载。"""
@@ -158,6 +188,7 @@ def fetch_source(url: str) -> str:
     if url.startswith("/") or url.startswith("./") or url.startswith("../") or os.path.exists(url):
         with open(url, "r", encoding="utf-8", errors="replace") as fh:
             return fh.read()
+<<<<<<< HEAD
     last_err = None
     for attempt in range(MAX_RETRIES):
         try:
@@ -180,11 +211,21 @@ def load_source_list(path: str):
     权重默认 1.0；地区默认 'global'，仅 'cn'/'west'/'global' 有效。
     """
     out = []
+=======
+    req = urllib.request.Request(url, headers={"User-Agent": "cf-gateway-adblock-builder/1.0"})
+    with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
+        charset = resp.headers.get_content_charset() or "utf-8"
+        return resp.read().decode(charset, errors="replace")
+
+
+def load_source_list(path: str):
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
     with open(path, "r", encoding="utf-8") as fh:
         for raw in fh:
             line = raw.strip()
             if not line or line.startswith("#"):
                 continue
+<<<<<<< HEAD
             tokens = line.split()
             url = tokens[0]
             weight = 1.0
@@ -210,13 +251,21 @@ def load_previous_domains(out_dir: str):
         return set()
     with open(prev, "r", encoding="utf-8") as fh:
         return {line.strip().lower() for line in fh if line.strip()}
+=======
+            yield line.split()[0]   # 第一列是 URL，后面是注释
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
 
 
 # --------------------------------------------------------------------------- #
 # 白名单
 # --------------------------------------------------------------------------- #
 def load_whitelist(path: str):
+<<<<<<< HEAD
     """读取 config/whitelist.txt，返回 (exact_set, wildcard_apexes)。"""
+=======
+    """读取 config/whitelist.txt，返回 (exact_set, wildcard_apexes)。
+    `*.example.com` 会以 apex `example.com` 存入 wildcard_apexes。"""
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
     exact, wild = set(), []
     if not os.path.exists(path):
         return exact, wild
@@ -247,6 +296,7 @@ def matches_wildcard(domain: str, wild: list):
 # --------------------------------------------------------------------------- #
 # 主流程
 # --------------------------------------------------------------------------- #
+<<<<<<< HEAD
 def build(sources_path, whitelist_path, out_dir, max_entries, min_sources,
           cn_bonus=CN_BONUS, new_bonus=NEW_BONUS):
     os.makedirs(out_dir, exist_ok=True)
@@ -261,6 +311,20 @@ def build(sources_path, whitelist_path, out_dir, max_entries, min_sources,
     sources = load_source_list(sources_path)
 
     for idx, (url, weight, region) in enumerate(sources):
+=======
+def build(sources_path, whitelist_path, out_dir, max_entries, min_sources):
+    os.makedirs(out_dir, exist_ok=True)
+    wl_exact, wl_wild = load_whitelist(whitelist_path)
+
+    # domain -> set(source_index)
+    freq = {}
+    source_stats = []
+    total_raw = 0
+    wild_matched = set()      # 被通配白名单命中的实际域名（用于展开白名单）
+    sources = list(load_source_list(sources_path))
+
+    for idx, url in enumerate(sources):
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
         try:
             content = fetch_source(url)
         except (urllib.error.URLError, urllib.error.HTTPError, OSError, ValueError) as e:
@@ -282,6 +346,7 @@ def build(sources_path, whitelist_path, out_dir, max_entries, min_sources,
                 wild_matched.add(dom)
                 continue
             seen.add(dom)
+<<<<<<< HEAD
             rec = data.get(dom)
             if rec is None:
                 rec = {"sources": set(), "weighted": 0.0, "cn_hits": 0}
@@ -310,6 +375,18 @@ def build(sources_path, whitelist_path, out_dir, max_entries, min_sources,
     final_domains = [r[0] for r in final]
     final_cn = sum(1 for r in final if r[3] > 0)
     final_new = sum(1 for r in final if r[4] > 0)
+=======
+            freq.setdefault(dom, set()).add(idx)
+
+        source_stats.append({"url": url, "ok": True, "domains": len(seen)})
+
+    # ---- 拦截列表：共识过滤 -> 排序 -> 封顶 ----
+    consensus = {d: len(s) for d, s in freq.items() if len(s) >= min_sources}
+    after_min = len(consensus)
+    ranked = sorted(consensus.items(), key=lambda kv: (-kv[1], kv[0]))
+    final = ranked[:max_entries]
+    final_domains = [d for d, _ in final]
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
 
     txt_path = os.path.join(out_dir, "domains.txt")
     with open(txt_path, "w", encoding="utf-8") as fh:
@@ -318,10 +395,15 @@ def build(sources_path, whitelist_path, out_dir, max_entries, min_sources,
     csv_path = os.path.join(out_dir, "domains.csv")
     with open(csv_path, "w", encoding="utf-8") as fh:
         fh.write("value,description\n")
+<<<<<<< HEAD
         for dom, freq, weighted, cn_hits, is_new, score in final:
             tag = "cn" if cn_hits > 0 else "intl"
             newtag = " new" if is_new else ""
             fh.write(f'{dom},"ad/tracker - {freq} sources [{tag}]{newtag}"\n')
+=======
+        for d, c in final:
+            fh.write(f"{d},\"ad/tracker - seen in {c} source lists\"\n")
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
 
     # ---- 白名单列表：精确域名 + apex + 实际命中的子域 ----
     whitelist_domains = set(wl_exact) | set(wl_wild) | wild_matched
@@ -333,6 +415,7 @@ def build(sources_path, whitelist_path, out_dir, max_entries, min_sources,
     # ---- 统计 ----
     stats = {
         "generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+<<<<<<< HEAD
         "scoring": {
             "min_sources": min_sources,
             "max_entries": max_entries,
@@ -353,13 +436,30 @@ def build(sources_path, whitelist_path, out_dir, max_entries, min_sources,
             {"domain": d, "freq": f, "weighted": w, "cn_hits": c, "is_new": n, "score": s}
             for d, f, w, c, n, s in final[:20]
         ],
+=======
+        "sources_total": len(sources),
+        "sources_ok": sum(1 for s in source_stats if s["ok"]),
+        "total_raw_lines": total_raw,
+        "unique_domains_after_parse": len(freq),
+        "after_consensus_filter": after_min,
+        "blocklist_count": len(final_domains),
+        "whitelist_count": len(whitelist_sorted),
+        "max_entries": max_entries,
+        "min_sources": min_sources,
+        "top_20": [{"domain": d, "sources": c} for d, c in final[:20]],
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
         "sources": source_stats,
     }
     with open(os.path.join(out_dir, "stats.json"), "w", encoding="utf-8") as fh:
         json.dump(stats, fh, indent=2, ensure_ascii=False)
 
+<<<<<<< HEAD
     print(f"[OK] 解析 {len(data)} 个去重域名；共识(min>={min_sources})后 {len(ranked)} 个；"
           f"拦截列表写入 {len(final_domains)} 个（含中文 {final_cn}、新增 {final_new}）-> {txt_path}")
+=======
+    print(f"[OK] 解析 {len(freq)} 个去重域名；共识过滤后 {after_min} 个；"
+          f"拦截列表写入 {len(final_domains)} 个 -> {txt_path}")
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
     print(f"[OK] 白名单写入 {len(whitelist_sorted)} 个 -> {wl_path}")
     return stats
 
@@ -371,11 +471,16 @@ def main():
     ap.add_argument("--out-dir", default=DEFAULT_OUT_DIR)
     ap.add_argument("--max-entries", type=int, default=MAX_ENTRIES)
     ap.add_argument("--min-sources", type=int, default=MIN_SOURCES)
+<<<<<<< HEAD
     ap.add_argument("--cn-bonus", type=float, default=CN_BONUS)
     ap.add_argument("--new-bonus", type=float, default=NEW_BONUS)
     args = ap.parse_args()
     build(args.sources, args.whitelist, args.out_dir, args.max_entries, args.min_sources,
           cn_bonus=args.cn_bonus, new_bonus=args.new_bonus)
+=======
+    args = ap.parse_args()
+    build(args.sources, args.whitelist, args.out_dir, args.max_entries, args.min_sources)
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
 
 
 if __name__ == "__main__":

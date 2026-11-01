@@ -2,9 +2,14 @@ name: Update Ad Blocklist
 
 on:
   schedule:
+<<<<<<< HEAD
     # 每天自动重建（UTC 01:00 = 北京时间 09:00）
     # 注意：GitHub Actions 的定时任务可能延迟几分钟到几十分钟，属正常现象
     - cron: '0 1 * * *'
+=======
+    # 每天 06:00 UTC 自动重建（可按需调整）
+    - cron: '0 6 * * *'
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
   workflow_dispatch:        # 允许手动触发
   push:
     paths:
@@ -30,8 +35,13 @@ jobs:
 
       - name: Build blocklist + whitelist
         env:
+<<<<<<< HEAD
           MAX_ENTRIES: ${{ vars.MAX_ENTRIES || '300000' }}
           MIN_SOURCES: ${{ vars.MIN_SOURCES || '1' }}
+=======
+          MAX_ENTRIES: ${{ vars.MAX_ENTRIES || '12000' }}
+          MIN_SOURCES: ${{ vars.MIN_SOURCES || '2' }}
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
         run: python scripts/build_list.py
 
       - name: Generate download links
@@ -54,7 +64,11 @@ jobs:
             echo "- cdn:  $CDN/whitelist.txt"
             echo
             echo "## 其他产物"
+<<<<<<< HEAD
             echo "- domains.csv（带表头，供 AdGuard/Pi-hole 等工具或自行分片导入）: $RAW/domains.csv"
+=======
+            echo "- domains.csv（带表头，供 Cloudflare 手动上传）: $RAW/domains.csv"
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
             echo "- stats.json（构建统计）: $RAW/stats.json"
             echo
             echo "更新时间（UTC）：$(date -u '+%Y-%m-%d %H:%M:%S')"

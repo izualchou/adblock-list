@@ -7,6 +7,7 @@
 - **`lists/whitelist.txt`** — 白名单（永不拦截的域名）
 
 > 核心思想：不追求"域名越多越好"，而是**只保留被多个权威源共同确认的、最常见的广告/追踪域名**，
+<<<<<<< HEAD
 > 数量可控（默认封顶 300000 条，即 1000×300，作为完整下载文件）。
 > 本仓库**不做任何上传/同步**，只负责生成文件并提供随时可用的下载链接。
 >
@@ -15,6 +16,10 @@
 > 本仓库的 `domains.txt` 是面向 **AdGuard Home / Pi-hole 等外部工具或自行分片** 的完整下载产物，
 > 条数远超单列表上限；若需直接作为一个 Cloudflare Gateway 列表上传，请改用 `MAX_ENTRIES=1000`（Standard）
 > 或 `5000`（Enterprise），或按需自行拆分。
+=======
+> 数量可控（默认 12000 条），可直接作为 Cloudflare Gateway `DOMAIN` 列表使用。
+> 本仓库**不做任何上传/同步**，只负责生成文件并提供随时可用的下载链接。
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
 
 ---
 
@@ -41,7 +46,11 @@
 
 ```
 .
+<<<<<<< HEAD
 ├── .github/workflows/update.yml   # 定时（每天 UTC 01:00 / 北京时间 09:00）自动构建 + 生成下载链接 + 提交
+=======
+├── .github/workflows/update.yml   # 定时（每周一）自动构建 + 生成下载链接 + 提交
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
 ├── config/
 │   ├── sources.txt                # 广告/追踪/恶意域名 源 URL 列表
 │   ├── whitelist.txt              # 白名单源（手工维护，支持 *.通配）
@@ -60,6 +69,7 @@
 ## 优选算法（"优选最常见的 ads"如何实现）
 
 1. **抓取** `config/sources.txt` 里的每个源（自动识别 hosts / AdGuard ABP / 纯域名格式）。
+<<<<<<< HEAD
 2. **解析**为域名集合，并为每个源记录 `[权重] [地区]` 元数据（见下）。
 3. 统计每个域名的四个维度：
    - `freq`：出现在多少个**不同源**（最常用）
@@ -97,6 +107,14 @@ https://.../some.txt      1  west    # 西方英文专精、默认权重
 > 再加上 Anti-AD（9.5 万行）、AdRules DNS（20 万行）等大体量中文聚合列表，
 > 最终按"跨列表频次"优选时，中文域名会自然占据高频区，显著改善此前中文覆盖偏弱的问题。
 > 若仍想进一步偏向中文，可在 `config/sources.txt` 中继续增删中文源，或调高 `MIN_SOURCES` 让高共识域名更靠前。
+=======
+2. **解析**为域名集合，统计每个域名在**多少个不同源**里出现 → 跨列表频次。
+3. **共识过滤**：仅保留出现在 `MIN_SOURCES`（默认 2）个及以上源里的域名，过滤长尾噪声与误杀。
+4. **排序**：频次降序 → 字典序（确定性 tie-break）。
+5. **封顶**：取 Top `MAX_ENTRIES`（默认 12000）写入 `domains.txt`。
+
+结果 = 全网最常见、被最多广告列表共同确认的域名，单个文件、数量可控。
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
 
 ---
 
@@ -124,18 +142,26 @@ example.com        # 精确放行
 把以上文件放进你自己的仓库，**默认分支名**记下来（用于拼下载链接）。
 
 ### 2. 触发构建
+<<<<<<< HEAD
 - 自动：每天（UTC 01:00，北京时间 09:00）。
+=======
+- 自动：每周一 06:00 UTC。
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
 - 手动：Actions → *Update Ad Blocklist* → *Run workflow*。
 
 ### 3. 拿到文件
 用上面的下载链接，或直接取仓库里的 `lists/domains.txt` / `lists/whitelist.txt`。
 
 ### 4. 用到 Cloudflare Gateway（手动，两步）
+<<<<<<< HEAD
 > ⚠️ 重要：官方文档规定 **单个 Gateway 列表上限 Standard 1000 / Enterprise 5000 条，CSV 须 < 2 MB**，
 > 不支持通配符，非拉丁域名自动转 Punycode。本仓库默认的 30 万条 `domains.txt` **无法直接作为一个 Cloudflare 列表上传**，
 > 必须二选一：① 把 `MAX_ENTRIES` 设为 `1000`（Standard）或 `5000`（Enterprise）后重新构建；② 自行将列表拆分到多个列表。
 
 1. 若按 Cloudflare 上限构建，Zero Trust → **Reusable components → Lists → Upload CSV**，上传 `lists/domains.csv`（类型选 **DOMAIN**）；
+=======
+1. Zero Trust → **Reusable components → Lists → Upload CSV**，上传 `lists/domains.csv`（类型选 **DOMAIN**）；
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
    再上传 `lists/whitelist.txt`（类型 **DOMAIN**，需自行补 `value` 表头或直接粘贴条目）。
 2. **Gateway → DNS policies** 建两条策略：
 
@@ -145,15 +171,23 @@ example.com        # 精确放行
    | 拦截广告 | `Domain` `in list` = 拦截列表 | **Block** | 200 |
 
    > Allow 的 precedence 必须小于 Block，白名单才会优先生效。
+<<<<<<< HEAD
    > 若上传被拒，按计划调低：Standard 1000 / Enterprise 5000。
+=======
+   > 默认封顶 12000 条（实测 Gateway DOMAIN 列表可接受）。若上传被拒，可调低：Standard 1000 / Enterprise 5000。
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
 
 ### 5. 本地运行
 
 ```bash
 python scripts/build_list.py
 # 可选参数：
+<<<<<<< HEAD
 #   --max-entries 300000  --min-sources 1
 #   --cn-bonus 2.0  --new-bonus 1.0
+=======
+#   --max-entries 12000  --min-sources 2
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
 #   --sources config/sources.txt  --whitelist config/whitelist.txt  --out-dir lists
 ```
 
@@ -163,6 +197,7 @@ python scripts/build_list.py
 
 | 目标 | 设置 |
 |---|---|
+<<<<<<< HEAD
 | 更纯净、极少误杀 | `MIN_SOURCES=3`（需被 ≥3 个源共同确认） |
 | 更偏中文 | 调高 `CN_BONUS`（如 `4.0`）或只保留 `region=cn` 的源 |
 | 更偏最近更新 | 调高 `NEW_BONUS`（如 `2.0`） |
@@ -172,6 +207,14 @@ python scripts/build_list.py
 
 > `MAX_ENTRIES=300000` 是面向 AdGuard Home / Pi-hole 等外部工具或自行分片的**完整下载文件**上限，
 > 已超过 Cloudflare Gateway 单列表上限（Standard 1000 / Enterprise 5000）。若直接上传到 Gateway，请按上表调低。
+=======
+| 更纯净、极少误杀 | `MIN_SOURCES=3`，`MAX_ENTRIES=12000` |
+| 覆盖更广 | `MAX_ENTRIES=50000`（或更高） |
+| 遇到误杀 | 把域名（或 `*.域名`）加入 `config/whitelist.txt` |
+
+> 若只在本仓库外消费列表（如 AdGuard / Pi-hole），`MAX_ENTRIES` 可以自由调大；
+> 若上传到 Cloudflare Gateway 被拒，按计划调低：Standard 1000 / Enterprise 5000；默认 12000 已实测可接受。
+>>>>>>> 9d92522f4f1b1ca4aff04918edfddb9cd1447e79
 
 ---
 
