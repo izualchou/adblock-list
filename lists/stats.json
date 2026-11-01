@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-31T11:27:23.917768+00:00",
+  "generated_at": "2026-11-01T10:51:57.440870+00:00",
   "sources_total": 18,
   "sources_ok": 18,
-  "total_raw_lines": 956351,
-  "unique_domains_after_parse": 481635,
-  "after_consensus_filter": 244471,
+  "total_raw_lines": 957191,
+  "unique_domains_after_parse": 482995,
+  "after_consensus_filter": 244916,
   "blocklist_count": 12000,
-  "whitelist_count": 3047,
+  "whitelist_count": 3050,
   "max_entries": 12000,
   "min_sources": 2,
   "top_20": [
@@ -150,7 +150,7 @@
     {
       "url": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
       "ok": true,
-      "domains": 42974
+      "domains": 44112
     },
     {
       "url": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt",
@@ -160,22 +160,22 @@
     {
       "url": "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt",
       "ok": true,
-      "domains": 2195
+      "domains": 2193
     },
     {
       "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt",
       "ok": true,
-      "domains": 222438
+      "domains": 222736
     },
     {
       "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
       "ok": true,
-      "domains": 183500
+      "domains": 183875
     },
     {
       "url": "https://small.oisd.nl/",
       "ok": true,
-      "domains": 58608
+      "domains": 57637
     },
     {
       "url": "https://raw.githubusercontent.com/curbengh/urlhaus-filter/master/urlhaus-filter-hosts.txt",

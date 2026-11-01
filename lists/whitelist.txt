@@ -586,6 +586,7 @@ d1b2zzpxewkr9z.cloudfront.net
 d1b3llzbo1rqxo.cloudfront.net
 d1b499kr4qnas6.cloudfront.net
 d1b7aq9bn3uykv.cloudfront.net
+d1b82hscw3e9o2.cloudfront.net
 d1b9b1cxai2c03.cloudfront.net
 d1bad9ankyq5eg.cloudfront.net
 d1bci271z7i5pg.cloudfront.net
@@ -1136,6 +1137,7 @@ d2b7n13v8adl6f.cloudfront.net
 d2bbq3twedfo2f.cloudfront.net
 d2bkkt3kqfmyo0.cloudfront.net
 d2bnxibecyz4h5.cloudfront.net
+d2bqow4fb67vs2.cloudfront.net
 d2bs5vtcw2lxsv.cloudfront.net
 d2bvfdz3bljcfk.cloudfront.net
 d2bxqnokimz7h9.cloudfront.net
@@ -2329,6 +2331,7 @@ dp64mxip2za0c.cloudfront.net
 dp94m8xzwqsjk.cloudfront.net
 dpb3g4kqr8xz.cloudfront.net
 dpd9yiocsyy6p.cloudfront.net
+dpena-fm-web-analytics.preview.developers.cloudflare.com
 dpeqm8xv96fuc.cloudfront.net
 dpirwgljl6cjp.cloudfront.net
 dpjf9a2rbjbvp.cloudfront.net
