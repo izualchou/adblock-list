@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-01T10:51:57.440870+00:00",
+  "generated_at": "2026-11-01T12:53:05.261301+00:00",
   "sources_total": 18,
   "sources_ok": 18,
-  "total_raw_lines": 957191,
-  "unique_domains_after_parse": 482995,
-  "after_consensus_filter": 244916,
+  "total_raw_lines": 957217,
+  "unique_domains_after_parse": 483027,
+  "after_consensus_filter": 244918,
   "blocklist_count": 12000,
   "whitelist_count": 3050,
   "max_entries": 12000,
@@ -170,12 +170,12 @@
     {
       "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
       "ok": true,
-      "domains": 183875
+      "domains": 183909
     },
     {
       "url": "https://small.oisd.nl/",
       "ok": true,
-      "domains": 57637
+      "domains": 57629
     },
     {
       "url": "https://raw.githubusercontent.com/curbengh/urlhaus-filter/master/urlhaus-filter-hosts.txt",
