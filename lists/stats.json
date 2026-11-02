@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T00:29:04.181921+00:00",
+  "generated_at": "2026-11-02T07:32:17.965431+00:00",
   "scoring": {
     "min_sources": 1,
     "max_entries": 300000,
@@ -9,12 +9,12 @@
   },
   "sources_total": 32,
   "sources_ok": 32,
-  "total_raw_lines": 1302704,
-  "unique_domains_after_parse": 510535,
-  "after_consensus_filter": 510535,
+  "total_raw_lines": 1303245,
+  "unique_domains_after_parse": 510681,
+  "after_consensus_filter": 510681,
   "blocklist_count": 300000,
-  "blocklist_cn_domains": 228720,
-  "blocklist_new_domains": 288000,
+  "blocklist_cn_domains": 228549,
+  "blocklist_new_domains": 4456,
   "whitelist_count": 2490,
   "top_20": [
     {
@@ -22,160 +22,160 @@
       "freq": 5,
       "weighted": 311.0,
       "cn_hits": 158,
-      "is_new": 1,
-      "score": 628.0
+      "is_new": 0,
+      "score": 627.0
     },
     {
       "domain": "ifengimg.com",
       "freq": 5,
       "weighted": 192.0,
       "cn_hits": 96,
-      "is_new": 1,
-      "score": 385.0
+      "is_new": 0,
+      "score": 384.0
     },
     {
       "domain": "sinaimg.cn",
       "freq": 5,
       "weighted": 156.0,
       "cn_hits": 78,
-      "is_new": 1,
-      "score": 313.0
+      "is_new": 0,
+      "score": 312.0
     },
     {
       "domain": "alicdn.com",
       "freq": 5,
       "weighted": 126.0,
       "cn_hits": 64,
-      "is_new": 1,
-      "score": 255.0
+      "is_new": 0,
+      "score": 254.0
     },
     {
       "domain": "bdstatic.com",
       "freq": 4,
       "weighted": 118.0,
       "cn_hits": 59,
-      "is_new": 1,
-      "score": 237.0
+      "is_new": 0,
+      "score": 236.0
     },
     {
       "domain": "gtimg.com",
       "freq": 4,
       "weighted": 111.0,
       "cn_hits": 56,
-      "is_new": 1,
-      "score": 224.0
+      "is_new": 0,
+      "score": 223.0
     },
     {
       "domain": "qq.com",
       "freq": 6,
       "weighted": 107.0,
       "cn_hits": 54,
-      "is_new": 1,
-      "score": 216.0
+      "is_new": 0,
+      "score": 215.0
     },
     {
       "domain": "qiyipic.com",
       "freq": 3,
       "weighted": 90.0,
       "cn_hits": 45,
-      "is_new": 1,
-      "score": 181.0
+      "is_new": 0,
+      "score": 180.0
     },
     {
       "domain": "2345.com",
       "freq": 6,
       "weighted": 70.0,
       "cn_hits": 33,
-      "is_new": 1,
-      "score": 137.0
+      "is_new": 0,
+      "score": 136.0
     },
     {
       "domain": "eastday.com",
       "freq": 2,
       "weighted": 66.0,
       "cn_hits": 33,
-      "is_new": 1,
-      "score": 133.0
+      "is_new": 0,
+      "score": 132.0
     },
     {
       "domain": "iqiyi.com",
       "freq": 3,
       "weighted": 62.0,
       "cn_hits": 31,
-      "is_new": 1,
-      "score": 125.0
+      "is_new": 0,
+      "score": 124.0
     },
     {
       "domain": "ifeng.com",
       "freq": 6,
       "weighted": 58.0,
       "cn_hits": 30,
-      "is_new": 1,
-      "score": 119.0
+      "is_new": 0,
+      "score": 118.0
     },
     {
       "domain": "sina.com.cn",
       "freq": 5,
       "weighted": 54.0,
       "cn_hits": 27,
-      "is_new": 1,
-      "score": 109.0
+      "is_new": 0,
+      "score": 108.0
     },
     {
       "domain": "chinaz.com",
       "freq": 3,
       "weighted": 52.0,
       "cn_hits": 26,
-      "is_new": 1,
-      "score": 105.0
+      "is_new": 0,
+      "score": 104.0
     },
     {
       "domain": "ithome.com",
       "freq": 3,
       "weighted": 50.0,
       "cn_hits": 25,
-      "is_new": 1,
-      "score": 101.0
+      "is_new": 0,
+      "score": 100.0
     },
     {
       "domain": "mydrivers.com",
       "freq": 4,
       "weighted": 48.0,
       "cn_hits": 24,
-      "is_new": 1,
-      "score": 97.0
+      "is_new": 0,
+      "score": 96.0
     },
     {
       "domain": "ali213.net",
       "freq": 3,
       "weighted": 48.0,
       "cn_hits": 24,
-      "is_new": 1,
-      "score": 97.0
+      "is_new": 0,
+      "score": 96.0
     },
     {
       "domain": "163.com",
       "freq": 5,
       "weighted": 47.0,
       "cn_hits": 24,
-      "is_new": 1,
-      "score": 96.0
+      "is_new": 0,
+      "score": 95.0
     },
     {
       "domain": "zol.com.cn",
       "freq": 4,
       "weighted": 38.0,
       "cn_hits": 19,
-      "is_new": 1,
-      "score": 77.0
+      "is_new": 0,
+      "score": 76.0
     },
     {
       "domain": "hoopchina.com.cn",
       "freq": 3,
       "weighted": 38.0,
       "cn_hits": 19,
-      "is_new": 1,
-      "score": 77.0
+      "is_new": 0,
+      "score": 76.0
     }
   ],
   "sources": [
@@ -196,14 +196,14 @@
     {
       "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
       "ok": true,
-      "domains": 184081,
+      "domains": 184175,
       "weight": 3.0,
       "region": "global"
     },
     {
       "url": "https://small.oisd.nl/",
       "ok": true,
-      "domains": 57846,
+      "domains": 57896,
       "weight": 3.0,
       "region": "global"
     },
@@ -294,7 +294,7 @@
     {
       "url": "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt",
       "ok": true,
-      "domains": 2193,
+      "domains": 2218,
       "weight": 1.0,
       "region": "west"
     },
@@ -308,14 +308,14 @@
     {
       "url": "https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-easylist.txt",
       "ok": true,
-      "domains": 93782,
+      "domains": 94050,
       "weight": 3.0,
       "region": "cn"
     },
     {
       "url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
       "ok": true,
-      "domains": 8377,
+      "domains": 8379,
       "weight": 2.0,
       "region": "cn"
     },
@@ -371,7 +371,7 @@
     {
       "url": "https://adrules.top/dns.txt",
       "ok": true,
-      "domains": 204307,
+      "domains": 204409,
       "weight": 3.0,
       "region": "cn"
     },
