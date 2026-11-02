@@ -1,186 +1,407 @@
 {
-  "generated_at": "2026-11-01T12:53:05.261301+00:00",
-  "sources_total": 18,
-  "sources_ok": 18,
-  "total_raw_lines": 957217,
-  "unique_domains_after_parse": 483027,
-  "after_consensus_filter": 244918,
-  "blocklist_count": 12000,
-  "whitelist_count": 3050,
-  "max_entries": 12000,
-  "min_sources": 2,
+  "generated_at": "2026-11-02T00:29:04.181921+00:00",
+  "scoring": {
+    "min_sources": 1,
+    "max_entries": 300000,
+    "cn_bonus": 2.0,
+    "new_bonus": 1.0,
+    "formula": "score = weighted_sum + cn_bonus*cn_hits + new_bonus*is_new"
+  },
+  "sources_total": 32,
+  "sources_ok": 32,
+  "total_raw_lines": 1302704,
+  "unique_domains_after_parse": 510535,
+  "after_consensus_filter": 510535,
+  "blocklist_count": 300000,
+  "blocklist_cn_domains": 228720,
+  "blocklist_new_domains": 288000,
+  "whitelist_count": 2490,
   "top_20": [
     {
-      "domain": "ad-delivery.net",
-      "sources": 11
+      "domain": "baidu.com",
+      "freq": 5,
+      "weighted": 311.0,
+      "cn_hits": 158,
+      "is_new": 1,
+      "score": 628.0
     },
     {
-      "domain": "adrta.com",
-      "sources": 11
+      "domain": "ifengimg.com",
+      "freq": 5,
+      "weighted": 192.0,
+      "cn_hits": 96,
+      "is_new": 1,
+      "score": 385.0
     },
     {
-      "domain": "alphonso.tv",
-      "sources": 11
+      "domain": "sinaimg.cn",
+      "freq": 5,
+      "weighted": 156.0,
+      "cn_hits": 78,
+      "is_new": 1,
+      "score": 313.0
     },
     {
-      "domain": "analytics.yahoo.com",
-      "sources": 11
+      "domain": "alicdn.com",
+      "freq": 5,
+      "weighted": 126.0,
+      "cn_hits": 64,
+      "is_new": 1,
+      "score": 255.0
     },
     {
-      "domain": "bttrack.com",
-      "sources": 11
+      "domain": "bdstatic.com",
+      "freq": 4,
+      "weighted": 118.0,
+      "cn_hits": 59,
+      "is_new": 1,
+      "score": 237.0
     },
     {
-      "domain": "mgid.com",
-      "sources": 11
+      "domain": "gtimg.com",
+      "freq": 4,
+      "weighted": 111.0,
+      "cn_hits": 56,
+      "is_new": 1,
+      "score": 224.0
     },
     {
-      "domain": "ml314.com",
-      "sources": 11
+      "domain": "qq.com",
+      "freq": 6,
+      "weighted": 107.0,
+      "cn_hits": 54,
+      "is_new": 1,
+      "score": 216.0
     },
     {
-      "domain": "samsungads.com",
-      "sources": 11
+      "domain": "qiyipic.com",
+      "freq": 3,
+      "weighted": 90.0,
+      "cn_hits": 45,
+      "is_new": 1,
+      "score": 181.0
     },
     {
-      "domain": "sc-analytics.appspot.com",
-      "sources": 11
+      "domain": "2345.com",
+      "freq": 6,
+      "weighted": 70.0,
+      "cn_hits": 33,
+      "is_new": 1,
+      "score": 137.0
     },
     {
-      "domain": "360yield.com",
-      "sources": 10
+      "domain": "eastday.com",
+      "freq": 2,
+      "weighted": 66.0,
+      "cn_hits": 33,
+      "is_new": 1,
+      "score": 133.0
     },
     {
-      "domain": "a-ads.com",
-      "sources": 10
+      "domain": "iqiyi.com",
+      "freq": 3,
+      "weighted": 62.0,
+      "cn_hits": 31,
+      "is_new": 1,
+      "score": 125.0
     },
     {
-      "domain": "ads.linkedin.com",
-      "sources": 10
+      "domain": "ifeng.com",
+      "freq": 6,
+      "weighted": 58.0,
+      "cn_hits": 30,
+      "is_new": 1,
+      "score": 119.0
     },
     {
-      "domain": "adsafeprotected.com",
-      "sources": 10
+      "domain": "sina.com.cn",
+      "freq": 5,
+      "weighted": 54.0,
+      "cn_hits": 27,
+      "is_new": 1,
+      "score": 109.0
     },
     {
-      "domain": "adskeeper.co.uk",
-      "sources": 10
+      "domain": "chinaz.com",
+      "freq": 3,
+      "weighted": 52.0,
+      "cn_hits": 26,
+      "is_new": 1,
+      "score": 105.0
     },
     {
-      "domain": "adsupply.com",
-      "sources": 10
+      "domain": "ithome.com",
+      "freq": 3,
+      "weighted": 50.0,
+      "cn_hits": 25,
+      "is_new": 1,
+      "score": 101.0
     },
     {
-      "domain": "adtng.com",
-      "sources": 10
+      "domain": "mydrivers.com",
+      "freq": 4,
+      "weighted": 48.0,
+      "cn_hits": 24,
+      "is_new": 1,
+      "score": 97.0
     },
     {
-      "domain": "adviva.net",
-      "sources": 10
+      "domain": "ali213.net",
+      "freq": 3,
+      "weighted": 48.0,
+      "cn_hits": 24,
+      "is_new": 1,
+      "score": 97.0
     },
     {
-      "domain": "app-analytics.snapchat.com",
-      "sources": 10
+      "domain": "163.com",
+      "freq": 5,
+      "weighted": 47.0,
+      "cn_hits": 24,
+      "is_new": 1,
+      "score": 96.0
     },
     {
-      "domain": "clevernt.com",
-      "sources": 10
+      "domain": "zol.com.cn",
+      "freq": 4,
+      "weighted": 38.0,
+      "cn_hits": 19,
+      "is_new": 1,
+      "score": 77.0
     },
     {
-      "domain": "clksite.com",
-      "sources": 10
+      "domain": "hoopchina.com.cn",
+      "freq": 3,
+      "weighted": 38.0,
+      "cn_hits": 19,
+      "is_new": 1,
+      "score": 77.0
     }
   ],
   "sources": [
     {
       "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
       "ok": true,
-      "domains": 76034
+      "domains": 77654,
+      "weight": 3.0,
+      "region": "global"
     },
     {
       "url": "https://adaway.org/hosts.txt",
       "ok": true,
-      "domains": 6512
-    },
-    {
-      "url": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
-      "ok": true,
-      "domains": 3551
-    },
-    {
-      "url": "https://v.firebog.net/hosts/Easylist.txt",
-      "ok": true,
-      "domains": 50484
-    },
-    {
-      "url": "https://v.firebog.net/hosts/Easyprivacy.txt",
-      "ok": true,
-      "domains": 43083
-    },
-    {
-      "url": "https://v.firebog.net/hosts/AdguardDNS.txt",
-      "ok": true,
-      "domains": 188924
-    },
-    {
-      "url": "https://v.firebog.net/hosts/Prigent-Ads.txt",
-      "ok": true,
-      "domains": 4262
-    },
-    {
-      "url": "https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt",
-      "ok": true,
-      "domains": 42206
-    },
-    {
-      "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt",
-      "ok": true,
-      "domains": 76
-    },
-    {
-      "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt",
-      "ok": true,
-      "domains": 487
-    },
-    {
-      "url": "https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/trackers.hosts",
-      "ok": true,
-      "domains": 15174
-    },
-    {
-      "url": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
-      "ok": true,
-      "domains": 44112
-    },
-    {
-      "url": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt",
-      "ok": true,
-      "domains": 312
-    },
-    {
-      "url": "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt",
-      "ok": true,
-      "domains": 2193
-    },
-    {
-      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt",
-      "ok": true,
-      "domains": 222736
+      "domains": 6512,
+      "weight": 2.0,
+      "region": "global"
     },
     {
       "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
       "ok": true,
-      "domains": 183909
+      "domains": 184081,
+      "weight": 3.0,
+      "region": "global"
     },
     {
       "url": "https://small.oisd.nl/",
       "ok": true,
-      "domains": 57629
+      "domains": 57846,
+      "weight": 3.0,
+      "region": "global"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt",
+      "ok": true,
+      "domains": 222736,
+      "weight": 3.0,
+      "region": "global"
+    },
+    {
+      "url": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
+      "ok": true,
+      "domains": 3551,
+      "weight": 2.0,
+      "region": "west"
+    },
+    {
+      "url": "https://v.firebog.net/hosts/Easylist.txt",
+      "ok": true,
+      "domains": 50484,
+      "weight": 2.0,
+      "region": "west"
+    },
+    {
+      "url": "https://v.firebog.net/hosts/Easyprivacy.txt",
+      "ok": true,
+      "domains": 43083,
+      "weight": 2.0,
+      "region": "west"
+    },
+    {
+      "url": "https://v.firebog.net/hosts/AdguardDNS.txt",
+      "ok": true,
+      "domains": 188924,
+      "weight": 2.0,
+      "region": "west"
+    },
+    {
+      "url": "https://v.firebog.net/hosts/Prigent-Ads.txt",
+      "ok": true,
+      "domains": 4262,
+      "weight": 2.0,
+      "region": "west"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt",
+      "ok": true,
+      "domains": 42206,
+      "weight": 2.0,
+      "region": "west"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt",
+      "ok": true,
+      "domains": 76,
+      "weight": 1.0,
+      "region": "west"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt",
+      "ok": true,
+      "domains": 487,
+      "weight": 1.0,
+      "region": "west"
+    },
+    {
+      "url": "https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/trackers.hosts",
+      "ok": true,
+      "domains": 15174,
+      "weight": 1.0,
+      "region": "west"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
+      "ok": true,
+      "domains": 43948,
+      "weight": 1.0,
+      "region": "west"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt",
+      "ok": true,
+      "domains": 312,
+      "weight": 1.0,
+      "region": "west"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt",
+      "ok": true,
+      "domains": 2193,
+      "weight": 1.0,
+      "region": "west"
     },
     {
       "url": "https://raw.githubusercontent.com/curbengh/urlhaus-filter/master/urlhaus-filter-hosts.txt",
       "ok": true,
-      "domains": 6084
+      "domains": 6084,
+      "weight": 3.0,
+      "region": "west"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-easylist.txt",
+      "ok": true,
+      "domains": 93782,
+      "weight": 3.0,
+      "region": "cn"
+    },
+    {
+      "url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
+      "ok": true,
+      "domains": 8377,
+      "weight": 2.0,
+      "region": "cn"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
+      "ok": true,
+      "domains": 519,
+      "weight": 2.0,
+      "region": "cn"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt",
+      "ok": true,
+      "domains": 25,
+      "weight": 2.0,
+      "region": "cn"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt",
+      "ok": true,
+      "domains": 6679,
+      "weight": 2.0,
+      "region": "cn"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts",
+      "ok": true,
+      "domains": 1641,
+      "weight": 2.0,
+      "region": "cn"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
+      "ok": true,
+      "domains": 950,
+      "weight": 2.0,
+      "region": "cn"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt",
+      "ok": true,
+      "domains": 263,
+      "weight": 2.0,
+      "region": "cn"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
+      "ok": true,
+      "domains": 74,
+      "weight": 1.0,
+      "region": "cn"
+    },
+    {
+      "url": "https://adrules.top/dns.txt",
+      "ok": true,
+      "domains": 204307,
+      "weight": 3.0,
+      "region": "cn"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/banbendalao/ADgk@master/ADgk.txt",
+      "ok": true,
+      "domains": 4354,
+      "weight": 2.0,
+      "region": "cn"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Zsy-2014/ChinaList2.0/master/ChinaList2.0.txt",
+      "ok": true,
+      "domains": 8375,
+      "weight": 2.0,
+      "region": "cn"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/damengzhu/banad@main/jiekouAD.txt",
+      "ok": true,
+      "domains": 4659,
+      "weight": 1.0,
+      "region": "cn"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts",
+      "ok": true,
+      "domains": 3240,
+      "weight": 1.0,
+      "region": "cn"
     }
   ]
 }
