@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T07:32:17.965431+00:00",
+  "generated_at": "2026-11-02T23:06:17.423944+00:00",
   "scoring": {
     "min_sources": 1,
     "max_entries": 300000,
@@ -9,13 +9,13 @@
   },
   "sources_total": 32,
   "sources_ok": 32,
-  "total_raw_lines": 1303245,
-  "unique_domains_after_parse": 510681,
-  "after_consensus_filter": 510681,
+  "total_raw_lines": 1337577,
+  "unique_domains_after_parse": 541322,
+  "after_consensus_filter": 541322,
   "blocklist_count": 300000,
-  "blocklist_cn_domains": 228549,
-  "blocklist_new_domains": 4456,
-  "whitelist_count": 2490,
+  "blocklist_cn_domains": 229128,
+  "blocklist_new_domains": 5898,
+  "whitelist_count": 2503,
   "top_20": [
     {
       "domain": "baidu.com",
@@ -196,28 +196,28 @@
     {
       "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
       "ok": true,
-      "domains": 184175,
+      "domains": 185641,
       "weight": 3.0,
       "region": "global"
     },
     {
       "url": "https://small.oisd.nl/",
       "ok": true,
-      "domains": 57896,
+      "domains": 58375,
       "weight": 3.0,
       "region": "global"
     },
     {
       "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt",
       "ok": true,
-      "domains": 222736,
+      "domains": 255088,
       "weight": 3.0,
       "region": "global"
     },
     {
       "url": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
       "ok": true,
-      "domains": 3551,
+      "domains": 3552,
       "weight": 2.0,
       "region": "west"
     },
@@ -280,7 +280,7 @@
     {
       "url": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
       "ok": true,
-      "domains": 43948,
+      "domains": 43786,
       "weight": 1.0,
       "region": "west"
     },
@@ -315,7 +315,7 @@
     {
       "url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
       "ok": true,
-      "domains": 8379,
+      "domains": 8383,
       "weight": 2.0,
       "region": "cn"
     },
@@ -371,7 +371,7 @@
     {
       "url": "https://adrules.top/dns.txt",
       "ok": true,
-      "domains": 204409,
+      "domains": 204581,
       "weight": 3.0,
       "region": "cn"
     },

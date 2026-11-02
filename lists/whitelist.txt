@@ -39,6 +39,7 @@ amplitude.map.fastly.net
 analytics-events.apple.com
 analytics.googleapis.com
 analytics.youtube.com
+analytics2-2-meride-tv.akamaized.net
 analytics2-3-meride-tv.akamaized.net
 analytics2-meride-tv.akamaized.net
 analyticsadmin.googleapis.com
@@ -60,10 +61,12 @@ appconf-ocs-sgp.heytapdl.com.akamaized.net
 apple.com
 applicationinsights.microsoft.com
 appnext-a.akamaihd.net
+appsbnet-a.akamaihd.net
 appsflyer.com.akamaized.net
 appsgrowthpromo-pa.googleapis.com
 ascpqnj-oam.global.ssl.fastly.net
 assets-momentum.akamaized.net
+atdmt-a.akamaihd.net
 au-mobile.events.data.microsoft.com
 autolinkmaker.itunes.apple.com
 axm-telemetry.apple.com
@@ -84,6 +87,7 @@ c1.microsoft.com
 c6.paypal.com
 ca.iadsdk.apple.com
 calameo-beacon.global.ssl.fastly.net
+cbsadsales-a.akamaihd.net
 cdn-guile.akamaized.net
 cdn-ketchapp.akamaized.net
 cdn2sitescout-a.akamaihd.net
@@ -105,6 +109,7 @@ clouddc2.syslogagent.telemetry.microsoft.com
 clouderrorreporting.googleapis.com
 cloudflare.com
 cloudfront.net
+cnetmedia-a.akamaihd.net
 co4.telecommand.telemetry.microsoft.com
 colibri-js.akamaized.net
 commondisplay-a.akamaihd.net
@@ -115,6 +120,7 @@ content-analyticsreporting.googleapis.com
 corp.sts.microsoft.com
 corpext.msitadfs.glbdns2.microsoft.com
 couponcp-a.akamaihd.net
+cperformmedia-a.akamaihd.net
 crashlyticsreports-pa.googleapis.com
 crl.microsoft.com
 csi.gstatic.com
@@ -946,6 +952,7 @@ d2i4wzwe8j1np9.cloudfront.net
 d2i55s0cnk529c.cloudfront.net
 d2i5pngfrazn5t.cloudfront.net
 d2ibu2ug0mt5qp.cloudfront.net
+d2ichgn6omvugs.cloudfront.net
 d2idmzrhlqydr.cloudfront.net
 d2ieqaiwehnqqp.cloudfront.net
 d2ier523in7agz.cloudfront.net
@@ -1206,6 +1213,7 @@ d2yyd1h5u9mauk.cloudfront.net
 d2yzlvmgs67bxt.cloudfront.net
 d2z0bn1jv8xwtk.cloudfront.net
 d2z0gqc8sv0l7p.cloudfront.net
+d2z0twhaibasxg.cloudfront.net
 d2z51a9spn09cw.cloudfront.net
 d2zah9y47r7bi2.cloudfront.net
 d2zbpgxs57sg1k.cloudfront.net
@@ -1852,6 +1860,7 @@ de8of677fyt0b.cloudfront.net
 dea9webxhb7gu.cloudfront.net
 debojuagug1sf.cloudfront.net
 def30qw5ks4uw.cloudfront.net
+default27061330-a.akamaihd.net
 defppmasu35cw.cloudfront.net
 deguxtdhf6d01.cloudfront.net
 deisd5o6v8rgq.cloudfront.net
@@ -2201,6 +2210,7 @@ dzxr711a4yw31.cloudfront.net
 e77lmzbqou0n-a.akamaihd.net
 email.microsoft.com
 emea.events.data.microsoft.com
+er-nol.global.ssl.fastly.net
 errors.stripe.com
 eu-ic3.events.data.microsoft.com
 eu-mobile.events.data.microsoft.com
@@ -2214,6 +2224,7 @@ eu.vortex-win.data.microsoft.com
 events-analytics.apple.com
 events-sandbox.data.microsoft.com
 events.data.microsoft.com
+exodus-wallet.global.ssl.fastly.net
 experiments.apple.com
 fastly.net
 fastlyanalytics.map.fastly.net
@@ -2382,6 +2393,7 @@ settings-sandbox.data.microsoft.com
 settings-win-ppe.data.microsoft.com
 settings-win.data.microsoft.com
 settings.data.glbdns2.microsoft.com
+shine.com.global.prod.fastly.net
 slc.stats.paypal.com
 smartadserver.com.akamaized.net
 smetric.ads.microsoft.com
@@ -2432,6 +2444,7 @@ tr.iadsdk.apple.com
 tr.www.cloudflare.com
 track.mp.microsoft.com
 track.notif.careersppe.microsoft.com
+treasuretrack-a.akamaihd.net
 trial-eum-clientnsv4-s.akamaihd.net
 trial-eum-clienttons-s.akamaihd.net
 tv-analytics-events.apple.com
