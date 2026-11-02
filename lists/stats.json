@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T23:08:51.652102+00:00",
+  "generated_at": "2026-11-02T23:10:20.899410+00:00",
   "scoring": {
     "min_sources": 1,
     "max_entries": 300000,
@@ -13,7 +13,7 @@
   "unique_domains_after_parse": 541322,
   "after_consensus_filter": 541322,
   "blocklist_count": 300000,
-  "blocklist_cn_domains": 228966,
+  "blocklist_cn_domains": 229128,
   "blocklist_new_domains": 4964,
   "whitelist_count": 2503,
   "top_20": [
