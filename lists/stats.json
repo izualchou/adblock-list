@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-03T01:08:20.445223+00:00",
+  "generated_at": "2026-11-03T03:13:00.601242+00:00",
   "scoring": {
     "min_sources": 1,
-    "max_entries": 300000,
+    "max_entries": 290000,
     "cn_bonus": 2.0,
     "new_bonus": 1.0,
     "formula": "score = weighted_sum + cn_bonus*cn_hits + new_bonus*is_new"
   },
   "sources_total": 32,
   "sources_ok": 32,
-  "total_raw_lines": 1337617,
-  "unique_domains_after_parse": 541357,
-  "after_consensus_filter": 541357,
-  "blocklist_count": 300000,
-  "blocklist_cn_domains": 228971,
-  "blocklist_new_domains": 4968,
+  "total_raw_lines": 1338212,
+  "unique_domains_after_parse": 542073,
+  "after_consensus_filter": 542073,
+  "blocklist_count": 290000,
+  "blocklist_cn_domains": 229134,
+  "blocklist_new_domains": 4969,
   "whitelist_count": 2503,
   "top_20": [
     {
@@ -196,7 +196,7 @@
     {
       "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
       "ok": true,
-      "domains": 185676,
+      "domains": 185712,
       "weight": 3.0,
       "region": "global"
     },
@@ -280,7 +280,7 @@
     {
       "url": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
       "ok": true,
-      "domains": 43786,
+      "domains": 44344,
       "weight": 1.0,
       "region": "west"
     },
@@ -315,7 +315,7 @@
     {
       "url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
       "ok": true,
-      "domains": 8388,
+      "domains": 8389,
       "weight": 2.0,
       "region": "cn"
     },
