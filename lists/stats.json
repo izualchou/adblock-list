@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T03:13:00.601242+00:00",
+  "generated_at": "2026-11-03T07:45:52.246678+00:00",
   "scoring": {
     "min_sources": 1,
     "max_entries": 290000,
@@ -9,12 +9,12 @@
   },
   "sources_total": 32,
   "sources_ok": 32,
-  "total_raw_lines": 1338212,
-  "unique_domains_after_parse": 542073,
-  "after_consensus_filter": 542073,
+  "total_raw_lines": 1338251,
+  "unique_domains_after_parse": 542099,
+  "after_consensus_filter": 542099,
   "blocklist_count": 290000,
-  "blocklist_cn_domains": 229134,
-  "blocklist_new_domains": 4969,
+  "blocklist_cn_domains": 228972,
+  "blocklist_new_domains": 14937,
   "whitelist_count": 2503,
   "top_20": [
     {
@@ -196,14 +196,14 @@
     {
       "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
       "ok": true,
-      "domains": 185712,
+      "domains": 185754,
       "weight": 3.0,
       "region": "global"
     },
     {
       "url": "https://small.oisd.nl/",
       "ok": true,
-      "domains": 58375,
+      "domains": 58391,
       "weight": 3.0,
       "region": "global"
     },
@@ -294,7 +294,7 @@
     {
       "url": "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt",
       "ok": true,
-      "domains": 2218,
+      "domains": 2199,
       "weight": 1.0,
       "region": "west"
     },
