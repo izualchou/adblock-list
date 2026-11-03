@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T23:10:20.899410+00:00",
+  "generated_at": "2026-11-03T01:06:58.007529+00:00",
   "scoring": {
     "min_sources": 1,
     "max_entries": 300000,
@@ -9,12 +9,12 @@
   },
   "sources_total": 32,
   "sources_ok": 32,
-  "total_raw_lines": 1337577,
-  "unique_domains_after_parse": 541322,
-  "after_consensus_filter": 541322,
+  "total_raw_lines": 1337617,
+  "unique_domains_after_parse": 541357,
+  "after_consensus_filter": 541357,
   "blocklist_count": 300000,
-  "blocklist_cn_domains": 229128,
-  "blocklist_new_domains": 4964,
+  "blocklist_cn_domains": 228971,
+  "blocklist_new_domains": 4969,
   "whitelist_count": 2503,
   "top_20": [
     {
@@ -196,7 +196,7 @@
     {
       "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
       "ok": true,
-      "domains": 185641,
+      "domains": 185676,
       "weight": 3.0,
       "region": "global"
     },
@@ -315,7 +315,7 @@
     {
       "url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
       "ok": true,
-      "domains": 8383,
+      "domains": 8388,
       "weight": 2.0,
       "region": "cn"
     },
