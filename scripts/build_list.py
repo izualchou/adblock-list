@@ -46,7 +46,7 @@ DEFAULT_SOURCES = os.path.join(_HERE, "..", "config", "sources.txt")
 DEFAULT_WHITELIST = os.path.join(_HERE, "..", "config", "whitelist.txt")
 DEFAULT_OUT_DIR = os.path.join(_HERE, "..", "lists")
 
-MAX_ENTRIES = int(os.environ.get("MAX_ENTRIES", "300000"))    # 拦截列表封顶（下载产物条数上限）
+MAX_ENTRIES = int(os.environ.get("MAX_ENTRIES", "290000"))    # 拦截列表封顶（下载产物条数上限）
 MIN_SOURCES = int(os.environ.get("MIN_SOURCES", "1"))         # 至少出现在几个源里（默认 1 = 全量）
 TIMEOUT = int(os.environ.get("FETCH_TIMEOUT", "90"))          # 单源下载超时（秒）
 MAX_RETRIES = int(os.environ.get("FETCH_RETRIES", "3"))       # 单源失败重试次数
