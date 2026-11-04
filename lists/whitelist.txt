@@ -288,6 +288,7 @@ d1aiciyg0qwvvr.cloudfront.net
 d1ap9gbbf77h85.cloudfront.net
 d1appgm50chwbg.cloudfront.net
 d1aq50y3ak4so4.cloudfront.net
+d1aqhv4sn5kxtx.cloudfront.net
 d1aqvw7cn4ydzo.cloudfront.net
 d1aukpqf83rqhe.cloudfront.net
 d1auwh1li83eb9.cloudfront.net
@@ -1316,7 +1317,6 @@ d361oi6ppvq2ym.cloudfront.net
 d362plazjjo29c.cloudfront.net
 d36cz9buwru1tt.cloudfront.net
 d36e0jkwnyz61b.cloudfront.net
-d36eyd5j1kt1m6.cloudfront.net
 d36gnquzy6rtyp.cloudfront.net
 d36mpcpuzc4ztk.cloudfront.net
 d36nbgnuno71tn.cloudfront.net
