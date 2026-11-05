@@ -21,10 +21,8 @@ ads.youtube.com
 adsdk.microsoft.com
 adsense.googleapis.com
 adsensehost.googleapis.com
-adserver.global.ssl.fastly.net
 adsmarketingwebp13n-pa.googleapis.com
 advbanners.global.ssl.fastly.net
-adverrd.global.ssl.fastly.net
 advertise.bingads.microsoft.com
 advertise.microsoft.com
 advertising.apple.com
@@ -216,6 +214,7 @@ d15mt77nzagpnx.cloudfront.net
 d15n68k9x054qg.cloudfront.net
 d15r06k2ko210l.cloudfront.net
 d15skjf5hy9xr6.cloudfront.net
+d15vhmibcc0gzr.cloudfront.net
 d15yg5thi9b6xv.cloudfront.net
 d160mt023h8h3d.cloudfront.net
 d162h6x3rxav67.cloudfront.net
@@ -230,6 +229,7 @@ d16u4nxze4xw1c.cloudfront.net
 d16vrz45pe7l8i.cloudfront.net
 d172q3toj7w1md.cloudfront.net
 d1733r3id7jrw5.cloudfront.net
+d173vboxjdq5zh.cloudfront.net
 d175dtblugd1dn.cloudfront.net
 d17757b88bjr2y.cloudfront.net
 d179kwmlpc4o47.cloudfront.net
@@ -451,6 +451,7 @@ d1krgg9nh7vzxg.cloudfront.net
 d1ks8roequxbwa.cloudfront.net
 d1ktmtailsv07c.cloudfront.net
 d1kttpj1t6674w.cloudfront.net
+d1kvy51zounghe.cloudfront.net
 d1kwkwcfmhtljq.cloudfront.net
 d1kx6hl0p7bemr.cloudfront.net
 d1kzm6rtbvkdln.cloudfront.net
@@ -826,6 +827,7 @@ d28uhswspmvrhb.cloudfront.net
 d28wlxclbkz49x.cloudfront.net
 d28xpw6kh69p7p.cloudfront.net
 d28y0kgqlw9ulu.cloudfront.net
+d28y1vh96kr872.cloudfront.net
 d2906506rwyvg2.cloudfront.net
 d29bsjuqfmjd63.cloudfront.net
 d29dbajta0the9.cloudfront.net
@@ -866,6 +868,7 @@ d2c4ylitp1qu24.cloudfront.net
 d2c7xlmseob604.cloudfront.net
 d2c8v52ll5s99u.cloudfront.net
 d2camyomzxmxme.cloudfront.net
+d2cas0mxlyrdip.cloudfront.net
 d2cek19ei8u7c4.cloudfront.net
 d2cgumzzqhgmdu.cloudfront.net
 d2cjo8xlt6fbwy.cloudfront.net
@@ -898,6 +901,7 @@ d2eklqgy1klqeu.cloudfront.net
 d2ele6m9umnaue.cloudfront.net
 d2elslrg1qbcem.cloudfront.net
 d2enprlhqqv4jf.cloudfront.net
+d2eok2risxn20.cloudfront.net
 d2epnp0vokbtl7.cloudfront.net
 d2eq4x4u2q3fwc.cloudfront.net
 d2er1uyk6qcknh.cloudfront.net
@@ -1042,6 +1046,7 @@ d2nlytvx51ywh9.cloudfront.net
 d2nq0f8d9ofdwv.cloudfront.net
 d2nq35tel3ucuo.cloudfront.net
 d2nrdy2pg3k168.cloudfront.net
+d2ntfphn328n31.cloudfront.net
 d2nuj85jf6t0f3.cloudfront.net
 d2nx6ydw3e5y5d.cloudfront.net
 d2nxi61n77zqpl.cloudfront.net
@@ -1136,6 +1141,7 @@ d2taktuuo4oqx.cloudfront.net
 d2tbszkvx1p56e.cloudfront.net
 d2tc1zttji8e3a.cloudfront.net
 d2te5kruq0pvbl.cloudfront.net
+d2te7d3w6eiv42.cloudfront.net
 d2tgfbvjf3q6hn.cloudfront.net
 d2tha2b8l1annb.cloudfront.net
 d2tkdzior84vck.cloudfront.net
@@ -1307,6 +1313,7 @@ d359wjs9dpy12d.cloudfront.net
 d35eux0j7ldw19.cloudfront.net
 d35fgcharv2shj.cloudfront.net
 d35fnytsc51gnr.cloudfront.net
+d35his8u160id3.cloudfront.net
 d35kbxc0t24sp8.cloudfront.net
 d35nmq1qnoxdb9.cloudfront.net
 d35r45qhjmgs3g.cloudfront.net
@@ -1343,6 +1350,7 @@ d37pempw0ijqri.cloudfront.net
 d37s9vd5t6mov7.cloudfront.net
 d37sevptuztre3.cloudfront.net
 d37tb4r0t9g99j.cloudfront.net
+d37wv0jcbxps3l.cloudfront.net
 d37xvfvxl95pq8.cloudfront.net
 d38190um0l9h9v.cloudfront.net
 d388cbecyo4yoc.cloudfront.net
@@ -1653,6 +1661,7 @@ d3sbxpiag177w8.cloudfront.net
 d3sdfpysdncs72.cloudfront.net
 d3sdg6egu48sqx.cloudfront.net
 d3skqyr7uryv9z.cloudfront.net
+d3sl9l9bcxfb5q.cloudfront.net
 d3so0g2pxg0u5a.cloudfront.net
 d3so1q8pr29y0t.cloudfront.net
 d3sof4x9nlmbgy.cloudfront.net
@@ -1781,6 +1790,7 @@ d9leupuz17y6i.cloudfront.net
 d9qjkk0othy76.cloudfront.net
 d9r4lqt28t1fm.cloudfront.net
 d9tnvwv7i2n85.cloudfront.net
+d9uqc191xsuna.cloudfront.net
 d9v72urx9pbbc.cloudfront.net
 d9yk47of1efyy.cloudfront.net
 da1bbbz2bvais.cloudfront.net
@@ -2093,6 +2103,7 @@ drvdb9rcebidk.cloudfront.net
 ds-aksb-a.akamaihd.net
 ds02gfqy6io6i.cloudfront.net
 ds6br8f5qp1u2.cloudfront.net
+ds72bwozuek.cloudfront.net
 ds88pc0kw6cvc.cloudfront.net
 ds8v3gllwhqrf.cloudfront.net
 dsb6jelx4yhln.cloudfront.net
@@ -2129,6 +2140,7 @@ du7wh8bicca0t.cloudfront.net
 du8783wkf05yr.cloudfront.net
 du99h8anpnevg.cloudfront.net
 due5a6x777z0x.cloudfront.net
+duerzc3hf5let.cloudfront.net
 dufai4b1ap33z.cloudfront.net
 duh0b8nl8uhfn.cloudfront.net
 duiwcg72w56ze.cloudfront.net
@@ -2210,7 +2222,6 @@ dzxr711a4yw31.cloudfront.net
 e77lmzbqou0n-a.akamaihd.net
 email.microsoft.com
 emea.events.data.microsoft.com
-er-nol.global.ssl.fastly.net
 errors.stripe.com
 eu-ic3.events.data.microsoft.com
 eu-mobile.events.data.microsoft.com
@@ -2227,7 +2238,6 @@ events.data.microsoft.com
 exodus-wallet.global.ssl.fastly.net
 experiments.apple.com
 fastly.net
-fastlyanalytics.map.fastly.net
 fbs.smoot.apple.com
 fcmatch.youtube.com
 federatedcompute-pa.googleapis.com
@@ -2252,6 +2262,7 @@ graffiti-tags.apple.com
 greatfind-a.akamaihd.net
 growth-pa.googleapis.com
 gstatic.com
+h1.fastlyanalytics.map.fastly.net
 hcaptcha.com
 hdapp1003-a.akamaihd.net
 hdapp1008-a.akamaihd.net
@@ -2271,13 +2282,11 @@ ieonline.microsoft.com
 ieonlinews.microsoft.com
 imasdk.googleapis.com
 in-mobile.events.data.microsoft.com
-includemodal.global.ssl.fastly.net
 infinitedata-pa.googleapis.com
 ingest.sentry.io
 inmobisdk-a.akamaihd.net
 inputsuggestions.msdxcdn.microsoft.com
 ip-check-perf.radar.cloudflare.com
-ithub.global.ssl.fastly.net
 jioads.akamaized.net
 jioadsweb.akamaized.net
 jly24aw29n5m-a.akamaihd.net
@@ -2292,7 +2301,6 @@ launch.apple.com
 lbstatic-a.akamaihd.net
 lgforbes.akamaized.net
 location.microsoft.com
-logging-alv.googleapis.com
 logs.apple.com
 logs.appsource.microsoft.com
 mdp-appconf-eu.heytapdl.com.akamaized.net
@@ -2393,7 +2401,6 @@ settings-sandbox.data.microsoft.com
 settings-win-ppe.data.microsoft.com
 settings-win.data.microsoft.com
 settings.data.glbdns2.microsoft.com
-shine.com.global.prod.fastly.net
 slc.stats.paypal.com
 smartadserver.com.akamaized.net
 smetric.ads.microsoft.com
