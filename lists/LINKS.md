@@ -14,4 +14,4 @@
 - domains.csv（带表头，供 AdGuard/Pi-hole 等工具或自行分片导入）: https://raw.githubusercontent.com/izualchou/adblock-list/main/lists/domains.csv
 - stats.json（构建统计）: https://raw.githubusercontent.com/izualchou/adblock-list/main/lists/stats.json
 
-更新时间（UTC）：2026-11-07 06:58:01
+更新时间（UTC）：2026-11-08 07:05:51
