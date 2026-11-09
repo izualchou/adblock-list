@@ -282,6 +282,7 @@ d19uh5b0umbjrr.cloudfront.net
 d19xf4taj229i8.cloudfront.net
 d19y03yc9s7c1c.cloudfront.net
 d1a3jb5hjny5s4.cloudfront.net
+d1a5blym15569s.cloudfront.net
 d1a6a9r46cnyll.cloudfront.net
 d1aa9f6zukqylf.cloudfront.net
 d1ac2du043ydir.cloudfront.net

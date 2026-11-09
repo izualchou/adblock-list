@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T07:05:50.987091+00:00",
+  "generated_at": "2026-11-09T07:48:51.389228+00:00",
   "scoring": {
     "min_sources": 1,
     "max_entries": 290000,
@@ -9,13 +9,13 @@
   },
   "sources_total": 32,
   "sources_ok": 32,
-  "total_raw_lines": 1329611,
-  "unique_domains_after_parse": 524728,
-  "after_consensus_filter": 524728,
+  "total_raw_lines": 1326689,
+  "unique_domains_after_parse": 525387,
+  "after_consensus_filter": 525387,
   "blocklist_count": 290000,
-  "blocklist_cn_domains": 229817,
-  "blocklist_new_domains": 21136,
-  "whitelist_count": 2508,
+  "blocklist_cn_domains": 230048,
+  "blocklist_new_domains": 19504,
+  "whitelist_count": 2509,
   "top_20": [
     {
       "domain": "baidu.com",
@@ -196,21 +196,21 @@
     {
       "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
       "ok": true,
-      "domains": 188240,
+      "domains": 185590,
       "weight": 3.0,
       "region": "global"
     },
     {
       "url": "https://small.oisd.nl/",
       "ok": true,
-      "domains": 59584,
+      "domains": 59858,
       "weight": 3.0,
       "region": "global"
     },
     {
       "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt",
       "ok": true,
-      "domains": 241426,
+      "domains": 241406,
       "weight": 3.0,
       "region": "global"
     },
@@ -280,7 +280,7 @@
     {
       "url": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
       "ok": true,
-      "domains": 43917,
+      "domains": 43377,
       "weight": 1.0,
       "region": "west"
     },
@@ -294,7 +294,7 @@
     {
       "url": "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt",
       "ok": true,
-      "domains": 2203,
+      "domains": 2204,
       "weight": 1.0,
       "region": "west"
     },
@@ -315,7 +315,7 @@
     {
       "url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
       "ok": true,
-      "domains": 8419,
+      "domains": 8431,
       "weight": 2.0,
       "region": "cn"
     },
