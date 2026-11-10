@@ -228,6 +228,7 @@ d1688m7kwucmpz.cloudfront.net
 d169bbxks24g2u.cloudfront.net
 d16fk4ms6rqz1v.cloudfront.net
 d16hi2v1mh7lg7.cloudfront.net
+d16pdpsjfn4tzp.cloudfront.net
 d16saj1xvba76n.cloudfront.net
 d16sobzswqonxq.cloudfront.net
 d16u4nxze4xw1c.cloudfront.net
@@ -282,7 +283,6 @@ d19uh5b0umbjrr.cloudfront.net
 d19xf4taj229i8.cloudfront.net
 d19y03yc9s7c1c.cloudfront.net
 d1a3jb5hjny5s4.cloudfront.net
-d1a5blym15569s.cloudfront.net
 d1a6a9r46cnyll.cloudfront.net
 d1aa9f6zukqylf.cloudfront.net
 d1ac2du043ydir.cloudfront.net
@@ -291,6 +291,7 @@ d1af033869koo7.cloudfront.net
 d1af165twk0zgn.cloudfront.net
 d1afet533lf7zs.cloudfront.net
 d1aiciyg0qwvvr.cloudfront.net
+d1ana6tpr3v2ln.cloudfront.net
 d1ap9gbbf77h85.cloudfront.net
 d1appgm50chwbg.cloudfront.net
 d1aq50y3ak4so4.cloudfront.net
@@ -320,6 +321,7 @@ d1bioqbsunwnrb.cloudfront.net
 d1bkis4ydqgspg.cloudfront.net
 d1bl8bfaqefxg9.cloudfront.net
 d1boik8k1ctool.cloudfront.net
+d1budfsejv9pin.cloudfront.net
 d1bxh8uas1mnw7.cloudfront.net
 d1bxkgbbc428vi.cloudfront.net
 d1byvlfiet2h9q.cloudfront.net
@@ -858,6 +860,7 @@ d2au4l2o128joe.cloudfront.net
 d2b0rc03cw4tbs.cloudfront.net
 d2b12e9gh7m9il.cloudfront.net
 d2b4jmuffp1l21.cloudfront.net
+d2b5zajlynpbt5.cloudfront.net
 d2b7n13v8adl6f.cloudfront.net
 d2bbq3twedfo2f.cloudfront.net
 d2bkkt3kqfmyo0.cloudfront.net
@@ -964,6 +967,7 @@ d2i4wzwe8j1np9.cloudfront.net
 d2i55s0cnk529c.cloudfront.net
 d2i5pngfrazn5t.cloudfront.net
 d2ibu2ug0mt5qp.cloudfront.net
+d2ichgn6omvugs.cloudfront.net
 d2idmzrhlqydr.cloudfront.net
 d2ieqaiwehnqqp.cloudfront.net
 d2ier523in7agz.cloudfront.net
@@ -1227,6 +1231,7 @@ d2yyd1h5u9mauk.cloudfront.net
 d2yzlvmgs67bxt.cloudfront.net
 d2z0bn1jv8xwtk.cloudfront.net
 d2z0gqc8sv0l7p.cloudfront.net
+d2z0twhaibasxg.cloudfront.net
 d2z51a9spn09cw.cloudfront.net
 d2zah9y47r7bi2.cloudfront.net
 d2zbpgxs57sg1k.cloudfront.net
@@ -1854,6 +1859,7 @@ dczhbhtz52fpi.cloudfront.net
 dd6ym5in4ovm3.cloudfront.net
 dd6zx4ibq538k.cloudfront.net
 ddacn6pr5v0tl.cloudfront.net
+ddcmor682hhqz.cloudfront.net
 ddfnmo6ev4fd.cloudfront.net
 ddla593ymz72o.cloudfront.net
 ddlh1467paih3.cloudfront.net
@@ -2463,6 +2469,7 @@ umwatson.events.data.microsoft.com
 umwatsonc.events.data.microsoft.com
 umwatsonc.telemetry.microsoft.com
 us-ic3.events.data.microsoft.com
+us-mesh.events.data.microsoft.com
 us-mobile.events.data.microsoft.com
 us-teams.events.data.microsoft.com
 us.vortex-win.data.microsoft.com
