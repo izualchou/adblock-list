@@ -129,6 +129,7 @@ crl.microsoft.com
 csi.gstatic.com
 csp-reporting.cloudflare.com
 cstat.apple.com
+d107aafi6v8j3q.cloudfront.net
 d108nnfn2eigw4.cloudfront.net
 d10ce3z4vbhcdd.cloudfront.net
 d10fhz7gnk5369.cloudfront.net
@@ -2311,7 +2312,6 @@ llhls-aka.livetech.shopee.ph.akamaized.net
 llhls-aka.livetech.shopee.tw.akamaized.net
 llhls-aka.livetech.shopee.vn.akamaized.net
 location.microsoft.com
-logs.apple.com
 logs.appsource.microsoft.com
 mdp-appconf-eu.heytapdl.com.akamaized.net
 mdp-appconf-euex.heytapdl.com.akamaized.net
