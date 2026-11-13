@@ -806,6 +806,7 @@ d26p9ecwyy9zqv.cloudfront.net
 d26r44l4vrn00m.cloudfront.net
 d26tbbq8zqdi4v.cloudfront.net
 d26us1doo6mh7f.cloudfront.net
+d26x5ounzdjojj.cloudfront.net
 d26xw8rp6mlgfg.cloudfront.net
 d26yfyk0ym2k1u.cloudfront.net
 d26ynmm8jhmv6r.cloudfront.net
@@ -1335,6 +1336,7 @@ d361oi6ppvq2ym.cloudfront.net
 d362plazjjo29c.cloudfront.net
 d36cz9buwru1tt.cloudfront.net
 d36e0jkwnyz61b.cloudfront.net
+d36eyd5j1kt1m6.cloudfront.net
 d36gnquzy6rtyp.cloudfront.net
 d36mpcpuzc4ztk.cloudfront.net
 d36nbgnuno71tn.cloudfront.net
@@ -2374,6 +2376,7 @@ pxlgnpgecom-a.akamaihd.net
 qnajplxtvz-a.akamaihd.net
 qsearch-a.akamaihd.net
 rad.microsoft.com
+rebecca-dns-account-analytics.preview.developers.cloudflare.com
 recaptcha.net
 redge-a.akamaihd.net
 redir.metaservices.microsoft.com
