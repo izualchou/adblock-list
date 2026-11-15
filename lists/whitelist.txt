@@ -57,6 +57,7 @@ analyticssearch-pa.googleapis.com
 androidtvchannels-pa.googleapis.com
 androidtvlauncherxfe-pa.googleapis.com
 androidtvwatsonfe-pa.googleapis.com
+angela-remove-network-analytics-v1.preview.developers.cloudflare.com
 apac.events.data.microsoft.com
 api-adservices.apple.com
 api.edgeoffer.microsoft.com
@@ -67,7 +68,6 @@ appconf-sgp.heytapdl.com.akamaized.net
 apple.com
 applicationinsights.microsoft.com
 appnext-a.akamaihd.net
-appsbnet-a.akamaihd.net
 appsflyer.com.akamaized.net
 appsgrowthpromo-pa.googleapis.com
 ascpqnj-oam.global.ssl.fastly.net
@@ -94,6 +94,7 @@ ca.iadsdk.apple.com
 calameo-beacon.global.ssl.fastly.net
 cdn-guile.akamaized.net
 cdn-ketchapp.akamaized.net
+cdn-production-thumbor-vidio.akamaized.net
 cdn2sitescout-a.akamaihd.net
 cdncache1-a.akamaihd.net
 cdnjs.cloudflare.com
@@ -298,7 +299,6 @@ d1af033869koo7.cloudfront.net
 d1af165twk0zgn.cloudfront.net
 d1afet533lf7zs.cloudfront.net
 d1aiciyg0qwvvr.cloudfront.net
-d1ana6tpr3v2ln.cloudfront.net
 d1ap9gbbf77h85.cloudfront.net
 d1appgm50chwbg.cloudfront.net
 d1aq50y3ak4so4.cloudfront.net
@@ -544,6 +544,7 @@ d1p0vowokmovqz.cloudfront.net
 d1p3zboe6tz3yy.cloudfront.net
 d1p7elpjrt6qav.cloudfront.net
 d1p7gp5w97u7t7.cloudfront.net
+d1pb91e5frs837.cloudfront.net
 d1pdf4c3hchi80.cloudfront.net
 d1pg391qb4gheb.cloudfront.net
 d1piupybsgr6dr.cloudfront.net
@@ -685,6 +686,7 @@ d1y3xnqdd6pdbo.cloudfront.net
 d1y64gbj15vrl6.cloudfront.net
 d1yaf4htak1xfg.cloudfront.net
 d1ybdlg8aoufn.cloudfront.net
+d1yekm2hdhx68k.cloudfront.net
 d1yeqwgi8897el.cloudfront.net
 d1ygczx880h5yu.cloudfront.net
 d1yh10k4hi0fgx.cloudfront.net
@@ -981,7 +983,6 @@ d2i4wzwe8j1np9.cloudfront.net
 d2i55s0cnk529c.cloudfront.net
 d2i5pngfrazn5t.cloudfront.net
 d2ibu2ug0mt5qp.cloudfront.net
-d2ichgn6omvugs.cloudfront.net
 d2idmzrhlqydr.cloudfront.net
 d2ieqaiwehnqqp.cloudfront.net
 d2ier523in7agz.cloudfront.net
@@ -1252,7 +1253,6 @@ d2yyd1h5u9mauk.cloudfront.net
 d2yzlvmgs67bxt.cloudfront.net
 d2z0bn1jv8xwtk.cloudfront.net
 d2z0gqc8sv0l7p.cloudfront.net
-d2z0twhaibasxg.cloudfront.net
 d2z51a9spn09cw.cloudfront.net
 d2zah9y47r7bi2.cloudfront.net
 d2zbpgxs57sg1k.cloudfront.net
@@ -1296,6 +1296,7 @@ d31ph8fftb4r3x.cloudfront.net
 d31qbv1cthcecs.cloudfront.net
 d31rse9wo0bxcx.cloudfront.net
 d31s5xi4eq6l6p.cloudfront.net
+d31tu1fsc224h4.cloudfront.net
 d31uxzurj3z4fa.cloudfront.net
 d31vxm9ubutrmw.cloudfront.net
 d31xqmzex8ubh8.cloudfront.net
@@ -1507,12 +1508,12 @@ d3g9jzjodi4z8o.cloudfront.net
 d3gaegctu6cvoa.cloudfront.net
 d3gi4w10ruedfh.cloudfront.net
 d3gi6isrskhoq.cloudfront.net
-d3gkjjeyt8tmlg.cloudfront.net
 d3glbzj5024wpt.cloudfront.net
 d3glxtkdbno0so.cloudfront.net
 d3h2eyuxrf2jr9.cloudfront.net
 d3h4vtr7axmx3p.cloudfront.net
 d3h5bk8iotgjvw.cloudfront.net
+d3hb14vkzrxvla.cloudfront.net
 d3hdbjtb1686tn.cloudfront.net
 d3hfiiy55cbi5t.cloudfront.net
 d3hib26r77jdus.cloudfront.net
@@ -1589,6 +1590,7 @@ d3mcf0n3hvvfk4.cloudfront.net
 d3mdyclpvuvy77.cloudfront.net
 d3mjsomixevyw7.cloudfront.net
 d3mlfyygrfdi2i.cloudfront.net
+d3mq5i5bxc3hns.cloudfront.net
 d3mqyj199tigh.cloudfront.net
 d3mr7y154d2qg5.cloudfront.net
 d3mshiiq22wqhz.cloudfront.net
@@ -1790,6 +1792,7 @@ d6swopgiplmy0.cloudfront.net
 d6wzv57amlrv3.cloudfront.net
 d6z72aalekwc3.cloudfront.net
 d7016uqa4s0lw.cloudfront.net
+d710lk0ib3mou.cloudfront.net
 d75473yaw6af4.cloudfront.net
 d761erxl2qywg.cloudfront.net
 d7dza8s7j2am6.cloudfront.net
@@ -1820,6 +1823,7 @@ d8yw4927nnimu.cloudfront.net
 d90z5o386dhs7.cloudfront.net
 d91i6bsb0ef59.cloudfront.net
 d94qwxh6czci4.cloudfront.net
+d97t2yr37h3wy.cloudfront.net
 d985a9d2clzq5.cloudfront.net
 d9b5gfwt6p05u.cloudfront.net
 d9c5dterekrjd.cloudfront.net
@@ -1894,7 +1898,6 @@ dczhbhtz52fpi.cloudfront.net
 dd6ym5in4ovm3.cloudfront.net
 dd6zx4ibq538k.cloudfront.net
 ddacn6pr5v0tl.cloudfront.net
-ddcmor682hhqz.cloudfront.net
 ddfnmo6ev4fd.cloudfront.net
 ddla593ymz72o.cloudfront.net
 ddlh1467paih3.cloudfront.net
@@ -1967,6 +1970,7 @@ dh8azcl753e1e.cloudfront.net
 dhcmni6m2kkyw.cloudfront.net
 dhgxl8qk9zgzr.cloudfront.net
 dhgywazgeek0d.cloudfront.net
+dhhpirx4zkghu.cloudfront.net
 dhn394959unvi.cloudfront.net
 dhpikd1t89arn.cloudfront.net
 dhqbrvplips7x.cloudfront.net
@@ -2126,6 +2130,7 @@ dqif5bl25s0bf.cloudfront.net
 dql2sdu63f1cw.cloudfront.net
 dqv45r33u0ltv.cloudfront.net
 dqvpww3nzoeeq.cloudfront.net
+dqxad30qylhf5.cloudfront.net
 dr3fr5q4g2ul9.cloudfront.net
 dr3k6qonw2kee.cloudfront.net
 dr6su5ow3i7eo.cloudfront.net
@@ -2280,6 +2285,7 @@ events-analytics.apple.com
 events-analytics.apple.com.akamaized.net
 events-sandbox.data.microsoft.com
 events.data.microsoft.com
+events.www.cloudflare.com
 experiments.apple.com
 fastly.net
 fastlyanalytics.map.fastly.net
@@ -2339,6 +2345,7 @@ jly24aw29n5m-a.akamaihd.net
 jnn-pa.googleapis.com
 jp-mobile.events.data.microsoft.com
 jsdelivr.net
+jun-d1-exceeded-size-error.preview.developers.cloudflare.com
 jy9xwwr6na98-a.akamaihd.net
 kmwatson.events.data.microsoft.com
 kmwatsonc.events.data.microsoft.com
@@ -2406,6 +2413,7 @@ phonesubmissions.apple.com
 pipe.aria.microsoft.com
 piwik-bz.apple.com
 pixel-node-europosit-com.akamaized.net
+pixel-rtve.global.ssl.fastly.net
 pjones-r2-error-messages.preview.developers.cloudflare.com
 play-services-telemetry.googleapis.com
 pmdipads-a.akamaihd.net
@@ -2422,6 +2430,7 @@ pxlgnpgecom-a.akamaihd.net
 qnajplxtvz-a.akamaihd.net
 qsearch-a.akamaihd.net
 query.prod.cms.rt.microsoft.com
+queues-metrics-changelog.preview.developers.cloudflare.com
 rad.microsoft.com
 rddiagnostics-g-apac-r1.wvd.microsoft.com
 rddiagnostics-g-au-r1.wvd.microsoft.com
