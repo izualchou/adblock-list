@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T07:49:37.661733+00:00",
+  "generated_at": "2026-11-17T08:58:02.260814+00:00",
   "scoring": {
     "min_sources": 1,
     "max_entries": 290000,
@@ -9,13 +9,13 @@
   },
   "sources_total": 32,
   "sources_ok": 32,
-  "total_raw_lines": 1344651,
-  "unique_domains_after_parse": 545536,
-  "after_consensus_filter": 545536,
+  "total_raw_lines": 1350775,
+  "unique_domains_after_parse": 553179,
+  "after_consensus_filter": 553179,
   "blocklist_count": 290000,
-  "blocklist_cn_domains": 231663,
-  "blocklist_new_domains": 23054,
-  "whitelist_count": 2607,
+  "blocklist_cn_domains": 231927,
+  "blocklist_new_domains": 22010,
+  "whitelist_count": 2614,
   "top_20": [
     {
       "domain": "baidu.com",
@@ -196,28 +196,28 @@
     {
       "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
       "ok": true,
-      "domains": 187880,
+      "domains": 188288,
       "weight": 3.0,
       "region": "global"
     },
     {
       "url": "https://small.oisd.nl/",
       "ok": true,
-      "domains": 61580,
+      "domains": 60885,
       "weight": 3.0,
       "region": "global"
     },
     {
       "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt",
       "ok": true,
-      "domains": 258153,
+      "domains": 263407,
       "weight": 3.0,
       "region": "global"
     },
     {
       "url": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
       "ok": true,
-      "domains": 3553,
+      "domains": 3554,
       "weight": 2.0,
       "region": "west"
     },
@@ -280,7 +280,7 @@
     {
       "url": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
       "ok": true,
-      "domains": 42973,
+      "domains": 44083,
       "weight": 1.0,
       "region": "west"
     },
@@ -294,7 +294,7 @@
     {
       "url": "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt",
       "ok": true,
-      "domains": 2167,
+      "domains": 2179,
       "weight": 1.0,
       "region": "west"
     },
@@ -315,7 +315,7 @@
     {
       "url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
       "ok": true,
-      "domains": 8500,
+      "domains": 8513,
       "weight": 2.0,
       "region": "cn"
     },
@@ -350,7 +350,7 @@
     {
       "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
       "ok": true,
-      "domains": 947,
+      "domains": 961,
       "weight": 2.0,
       "region": "cn"
     },

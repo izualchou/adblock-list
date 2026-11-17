@@ -70,6 +70,7 @@ applicationinsights.microsoft.com
 appnext-a.akamaihd.net
 appsflyer.com.akamaized.net
 appsgrowthpromo-pa.googleapis.com
+aria.microsoft.com
 ascpqnj-oam.global.ssl.fastly.net
 assets-momentum.akamaized.net
 au-mobile.events.data.microsoft.com
@@ -458,6 +459,7 @@ d1jwpd11ofhd5g.cloudfront.net
 d1k0glcmk0b5rb.cloudfront.net
 d1k1f5irw0ad96.cloudfront.net
 d1k3dpebxhgqjc.cloudfront.net
+d1k4ozb5t9l7ci.cloudfront.net
 d1k5qlz5hbz8am.cloudfront.net
 d1k8mqc61fowi.cloudfront.net
 d1k8sb4xbepqao.cloudfront.net
@@ -983,6 +985,7 @@ d2i4wzwe8j1np9.cloudfront.net
 d2i55s0cnk529c.cloudfront.net
 d2i5pngfrazn5t.cloudfront.net
 d2ibu2ug0mt5qp.cloudfront.net
+d2ichgn6omvugs.cloudfront.net
 d2idmzrhlqydr.cloudfront.net
 d2ieqaiwehnqqp.cloudfront.net
 d2ier523in7agz.cloudfront.net
@@ -1200,6 +1203,7 @@ d2v02itv0y9u9t.cloudfront.net
 d2v4wf9my00msd.cloudfront.net
 d2v83son8kay5v.cloudfront.net
 d2va1d0hpla18n.cloudfront.net
+d2vamvrhffvqwc.cloudfront.net
 d2vd3rtal66yy0.cloudfront.net
 d2vh936uogbhhe.cloudfront.net
 d2vig74li2resi.cloudfront.net
@@ -1253,6 +1257,7 @@ d2yyd1h5u9mauk.cloudfront.net
 d2yzlvmgs67bxt.cloudfront.net
 d2z0bn1jv8xwtk.cloudfront.net
 d2z0gqc8sv0l7p.cloudfront.net
+d2z0twhaibasxg.cloudfront.net
 d2z51a9spn09cw.cloudfront.net
 d2zah9y47r7bi2.cloudfront.net
 d2zbpgxs57sg1k.cloudfront.net
@@ -1704,7 +1709,6 @@ d3sdfpysdncs72.cloudfront.net
 d3sdg6egu48sqx.cloudfront.net
 d3sh7inoi83mn7.cloudfront.net
 d3skqyr7uryv9z.cloudfront.net
-d3sl9l9bcxfb5q.cloudfront.net
 d3so0g2pxg0u5a.cloudfront.net
 d3so1q8pr29y0t.cloudfront.net
 d3sof4x9nlmbgy.cloudfront.net
@@ -2199,6 +2203,7 @@ duy1ol4n1csnp.cloudfront.net
 duz64ud8y8urc.cloudfront.net
 duzt6rhr7wo8p.cloudfront.net
 dv0uonokej56p.cloudfront.net
+dv5vwlgir0hsc.cloudfront.net
 dv663fc06d35i.cloudfront.net
 dv7t7qyvgyrt5.cloudfront.net
 dv8v1cvc98vkm.cloudfront.net
@@ -2284,6 +2289,7 @@ events-analytics.apple.com
 events-analytics.apple.com.akamaized.net
 events-sandbox.data.microsoft.com
 events.data.microsoft.com
+events.endpoint.security.microsoft.com
 events.www.cloudflare.com
 experiments.apple.com
 fastly.net
@@ -2366,6 +2372,7 @@ mdp-appconf-euex.heytapdl.com.akamaized.net
 measure.microsoft.com
 measure.office.com.akamaized.net
 mercury.akamaized.net
+metrics-collector.paypal.com
 metrics-config.icloud.com
 metrics.apple.com
 metrics.icloud.com
@@ -2389,7 +2396,6 @@ noam.events.data.microsoft.com
 notes-analytics-events.apple.com
 notifications-ueeshp-pa.googleapis.com
 notifications.googleapis.com
-ntvaim-a.akamaized.net
 ntvcld-a.akamaihd.net
 nw-umwatson.events.data.microsoft.com
 o209266.ingest.us.sentry.io
@@ -2409,7 +2415,6 @@ pcx-20808-origin-analytics.preview.developers.cloudflare.com
 performanceparameters.googleapis.com
 pf.events.data.microsoft.com
 phonesubmissions.apple.com
-pipe.aria.microsoft.com
 piwik-bz.apple.com
 pixel-node-europosit-com.akamaized.net
 pixel-rtve.global.ssl.fastly.net
@@ -2464,6 +2469,7 @@ rddiagnostics-g-no-r1.wvd.microsoft.com
 rddiagnostics-g-sa-r0.wvd.microsoft.com
 rddiagnostics-g-sa-r1.wvd.microsoft.com
 rddiagnostics-g-us-r0.wvd.microsoft.com
+rddiagnostics-g-us-r1.wvd.microsoft.com
 rebecca-dns-account-analytics.preview.developers.cloudflare.com
 rebecca-dns-ent-analytics-interval.preview.developers.cloudflare.com
 recaptcha.net
@@ -2590,6 +2596,7 @@ watson7.alpha.telemetry.microsoft.com
 watsonc.events.data.microsoft.com
 weather-analytics-events.apple.com
 web.vortex.data.microsoft.com
+webxtsvc.microsoft.com
 wer.alpha.telemetry.microsoft.com
 wes.df.telemetry.microsoft.com
 win10.ipv6.microsoft.com
