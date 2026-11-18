@@ -1515,6 +1515,7 @@ d3gi4w10ruedfh.cloudfront.net
 d3gi6isrskhoq.cloudfront.net
 d3glbzj5024wpt.cloudfront.net
 d3glxtkdbno0so.cloudfront.net
+d3gzvoml0v92ql.cloudfront.net
 d3h2eyuxrf2jr9.cloudfront.net
 d3h4vtr7axmx3p.cloudfront.net
 d3h5bk8iotgjvw.cloudfront.net
@@ -1975,6 +1976,7 @@ dhcmni6m2kkyw.cloudfront.net
 dhgxl8qk9zgzr.cloudfront.net
 dhgywazgeek0d.cloudfront.net
 dhhpirx4zkghu.cloudfront.net
+dhn394959unvi.cloudfront.net
 dhpikd1t89arn.cloudfront.net
 dhqbrvplips7x.cloudfront.net
 dhrhzii89gpwo.cloudfront.net
@@ -2396,6 +2398,7 @@ noam.events.data.microsoft.com
 notes-analytics-events.apple.com
 notifications-ueeshp-pa.googleapis.com
 notifications.googleapis.com
+ntvaim-a.akamaized.net
 ntvcld-a.akamaihd.net
 nw-umwatson.events.data.microsoft.com
 o209266.ingest.us.sentry.io
