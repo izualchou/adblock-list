@@ -180,6 +180,7 @@ d12t7h1bsbq1cs.cloudfront.net
 d12tu1kocp8e8u.cloudfront.net
 d12ylqdkzgcup5.cloudfront.net
 d12zgccgt6pwjz.cloudfront.net
+d133n8jka28gzu.cloudfront.net
 d133y3h5r255gq.cloudfront.net
 d138am4hd4ke4y.cloudfront.net
 d13dhn7ldhrcf6.cloudfront.net
@@ -612,6 +613,7 @@ d1sqvt36mg3t1b.cloudfront.net
 d1stxfv94hrhia.cloudfront.net
 d1su7676ffyt2e.cloudfront.net
 d1sytkg9v37f5q.cloudfront.net
+d1t0y44clmni6x.cloudfront.net
 d1t1fxgxazche8.cloudfront.net
 d1t38ngzzazukx.cloudfront.net
 d1t4ekjh9ps4ob.cloudfront.net
@@ -1451,6 +1453,7 @@ d3c3uihon9kmp.cloudfront.net
 d3c4w812zqrvlw.cloudfront.net
 d3c8j8snkzfr1n.cloudfront.net
 d3c8l61zd5ltf8.cloudfront.net
+d3c8qkugf20idt.cloudfront.net
 d3cciiowg5l3jx.cloudfront.net
 d3ce0liiuo0lde.cloudfront.net
 d3cesrg5igdcgt.cloudfront.net
@@ -1468,6 +1471,7 @@ d3cxv97fi8q177.cloudfront.net
 d3cy20ss8oxn3o.cloudfront.net
 d3cynajatn2qbc.cloudfront.net
 d3d0wndor0l4xe.cloudfront.net
+d3d4gnv047l844.cloudfront.net
 d3d52lhoy0sh2w.cloudfront.net
 d3d54j7si4woql.cloudfront.net
 d3d9gb3ic8fsgg.cloudfront.net
@@ -1852,6 +1856,7 @@ da5h676k6d22w.cloudfront.net
 da656buijq2gw.cloudfront.net
 da6zbf1armlme.cloudfront.net
 dad1mq193mgtr.cloudfront.net
+daffdlmbsatjn.cloudfront.net
 dagd0kz7sipfl.cloudfront.net
 dah0wv79ikn14.cloudfront.net
 dal9hkyfi0m0n.cloudfront.net
@@ -1893,6 +1898,7 @@ dc9xwpjprguup.cloudfront.net
 dcai7bdiz5toz.cloudfront.net
 dcbbwymp1bhlf.cloudfront.net
 dcdhb6nl9plwp.cloudfront.net
+dciwm24sqj8d3.cloudfront.net
 dcjg1gv1px1h.cloudfront.net
 dcniko1cv0rz.cloudfront.net
 dcqtn1np2a3xz.cloudfront.net
@@ -2489,6 +2495,7 @@ s2.youtube.com
 searchads.apple.com
 searchlabspartnerservice-pa.googleapis.com
 securemetrics.apple.com
+securemetrics.us.apple.com
 securemvt.apple.com
 sentry-cdn.com
 sentry.hcaptcha.com
@@ -2609,6 +2616,7 @@ windowsupdate.com
 wkxppshj-qx.global.ssl.fastly.net
 www.bingads.microsoft.com
 www.d128wldt9dh6cv.cloudfront.net
+www.d1t0y44clmni6x.cloudfront.net
 www.youtube.com
 xgapromomanager-pa.googleapis.com
 youtube.com
