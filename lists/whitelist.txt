@@ -228,6 +228,7 @@ d15n68k9x054qg.cloudfront.net
 d15r06k2ko210l.cloudfront.net
 d15skjf5hy9xr6.cloudfront.net
 d15vhmibcc0gzr.cloudfront.net
+d15voiknbupdf5.cloudfront.net
 d15yg5thi9b6xv.cloudfront.net
 d160mt023h8h3d.cloudfront.net
 d162h6x3rxav67.cloudfront.net
@@ -1158,6 +1159,7 @@ d2s6z1m6xnp5uj.cloudfront.net
 d2s9nyc35a225l.cloudfront.net
 d2sbzwmcg5amr3.cloudfront.net
 d2sffavqvyl9dp.cloudfront.net
+d2sisrr9r7t0z4.cloudfront.net
 d2sj2q93t0dtyb.cloudfront.net
 d2skqnrxz11esv.cloudfront.net
 d2sn24mi2gn24v.cloudfront.net
@@ -1523,6 +1525,7 @@ d3gzvoml0v92ql.cloudfront.net
 d3h2eyuxrf2jr9.cloudfront.net
 d3h4vtr7axmx3p.cloudfront.net
 d3h5bk8iotgjvw.cloudfront.net
+d3ha0drt130222.cloudfront.net
 d3hb14vkzrxvla.cloudfront.net
 d3hdbjtb1686tn.cloudfront.net
 d3hfiiy55cbi5t.cloudfront.net
@@ -1549,6 +1552,7 @@ d3ip4t8fp90x81.cloudfront.net
 d3ipmxzmjf8cw7.cloudfront.net
 d3ithbwcmjcxl7.cloudfront.net
 d3ix9yg89ky1c5.cloudfront.net
+d3ixcffzcz1zze.cloudfront.net
 d3iz6lralvg77g.cloudfront.net
 d3j1weegxvu8ns.cloudfront.net
 d3j3yrurxcqogk.cloudfront.net
@@ -1570,6 +1574,7 @@ d3kd7yqlh5wy6d.cloudfront.net
 d3klfyy4pvmpzb.cloudfront.net
 d3kpkrgd3aj4o7.cloudfront.net
 d3ktcnc1w6pd1f.cloudfront.net
+d3kuse4dk8esyh.cloudfront.net
 d3kyk5bao1crtw.cloudfront.net
 d3l320urli0p1u.cloudfront.net
 d3l3lkinz3f56t.cloudfront.net
@@ -2298,7 +2303,6 @@ events-analytics.apple.com.akamaized.net
 events-sandbox.data.microsoft.com
 events.data.microsoft.com
 events.endpoint.security.microsoft.com
-events.www.cloudflare.com
 experiments.apple.com
 fastly.net
 fastlyanalytics.map.fastly.net
@@ -2382,6 +2386,7 @@ measure.office.com.akamaized.net
 mercury.akamaized.net
 metrics-collector.paypal.com
 metrics-config.icloud.com
+metrics-posts-api.global.ssl.fastly.net
 metrics.apple.com
 metrics.icloud.com
 microsoft.com
@@ -2616,6 +2621,7 @@ windowsupdate.com
 wkxppshj-qx.global.ssl.fastly.net
 www.bingads.microsoft.com
 www.d128wldt9dh6cv.cloudfront.net
+www.d15voiknbupdf5.cloudfront.net
 www.d1t0y44clmni6x.cloudfront.net
 www.youtube.com
 xgapromomanager-pa.googleapis.com
