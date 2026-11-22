@@ -988,7 +988,6 @@ d2i4wzwe8j1np9.cloudfront.net
 d2i55s0cnk529c.cloudfront.net
 d2i5pngfrazn5t.cloudfront.net
 d2ibu2ug0mt5qp.cloudfront.net
-d2ichgn6omvugs.cloudfront.net
 d2idmzrhlqydr.cloudfront.net
 d2ieqaiwehnqqp.cloudfront.net
 d2ier523in7agz.cloudfront.net
@@ -1159,7 +1158,6 @@ d2s6z1m6xnp5uj.cloudfront.net
 d2s9nyc35a225l.cloudfront.net
 d2sbzwmcg5amr3.cloudfront.net
 d2sffavqvyl9dp.cloudfront.net
-d2sisrr9r7t0z4.cloudfront.net
 d2sj2q93t0dtyb.cloudfront.net
 d2skqnrxz11esv.cloudfront.net
 d2sn24mi2gn24v.cloudfront.net
@@ -1261,7 +1259,6 @@ d2yyd1h5u9mauk.cloudfront.net
 d2yzlvmgs67bxt.cloudfront.net
 d2z0bn1jv8xwtk.cloudfront.net
 d2z0gqc8sv0l7p.cloudfront.net
-d2z0twhaibasxg.cloudfront.net
 d2z51a9spn09cw.cloudfront.net
 d2zah9y47r7bi2.cloudfront.net
 d2zbpgxs57sg1k.cloudfront.net
@@ -1525,7 +1522,6 @@ d3gzvoml0v92ql.cloudfront.net
 d3h2eyuxrf2jr9.cloudfront.net
 d3h4vtr7axmx3p.cloudfront.net
 d3h5bk8iotgjvw.cloudfront.net
-d3ha0drt130222.cloudfront.net
 d3hb14vkzrxvla.cloudfront.net
 d3hdbjtb1686tn.cloudfront.net
 d3hfiiy55cbi5t.cloudfront.net
@@ -1999,6 +1995,7 @@ di2xwvxz1jrvu.cloudfront.net
 diagnostics.googleapis.com
 diagnostics.support.microsoft.com
 dic9vgwbkxd8r.cloudfront.net
+dieyw83levyc2.cloudfront.net
 dihutyaiafuhr.cloudfront.net
 dil4q0t0blrf8.cloudfront.net
 dilvyi2h98h1q.cloudfront.net
