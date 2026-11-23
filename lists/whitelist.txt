@@ -134,7 +134,6 @@ crl.microsoft.com
 csi.gstatic.com
 csp-reporting.cloudflare.com
 cstat.apple.com
-d107aafi6v8j3q.cloudfront.net
 d108nnfn2eigw4.cloudfront.net
 d10ce3z4vbhcdd.cloudfront.net
 d10fhz7gnk5369.cloudfront.net
@@ -1175,7 +1174,6 @@ d2t953dxm5i0o5.cloudfront.net
 d2taktuuo4oqx.cloudfront.net
 d2tbszkvx1p56e.cloudfront.net
 d2tc1zttji8e3a.cloudfront.net
-d2te5kruq0pvbl.cloudfront.net
 d2te7d3w6eiv42.cloudfront.net
 d2tgfbvjf3q6hn.cloudfront.net
 d2tha2b8l1annb.cloudfront.net
@@ -1927,6 +1925,7 @@ de8of677fyt0b.cloudfront.net
 dea9webxhb7gu.cloudfront.net
 debojuagug1sf.cloudfront.net
 def30qw5ks4uw.cloudfront.net
+default27061330-a.akamaihd.net
 defppmasu35cw.cloudfront.net
 deguxtdhf6d01.cloudfront.net
 deisd5o6v8rgq.cloudfront.net
@@ -1983,7 +1982,6 @@ dhcmni6m2kkyw.cloudfront.net
 dhgxl8qk9zgzr.cloudfront.net
 dhgywazgeek0d.cloudfront.net
 dhhpirx4zkghu.cloudfront.net
-dhn394959unvi.cloudfront.net
 dhpikd1t89arn.cloudfront.net
 dhqbrvplips7x.cloudfront.net
 dhrhzii89gpwo.cloudfront.net
@@ -1995,7 +1993,6 @@ di2xwvxz1jrvu.cloudfront.net
 diagnostics.googleapis.com
 diagnostics.support.microsoft.com
 dic9vgwbkxd8r.cloudfront.net
-dieyw83levyc2.cloudfront.net
 dihutyaiafuhr.cloudfront.net
 dil4q0t0blrf8.cloudfront.net
 dilvyi2h98h1q.cloudfront.net
@@ -2367,6 +2364,8 @@ kmwatsonc.telemetry.microsoft.com
 launch.apple.com
 lbstatic-a.akamaihd.net
 lgforbes.akamaized.net
+lkysearchds1503-a.akamaihd.net
+lkysearchex01269-a.akamaihd.net
 llhls-aka.livetech.shopee.co.id.akamaized.net
 llhls-aka.livetech.shopee.co.th.akamaized.net
 llhls-aka.livetech.shopee.com.my.akamaized.net
@@ -2375,7 +2374,6 @@ llhls-aka.livetech.shopee.tw.akamaized.net
 llhls-aka.livetech.shopee.vn.akamaized.net
 location.microsoft.com
 logs.appsource.microsoft.com
-marcio-mwan-analytics-patch.preview.developers.cloudflare.com
 mdp-appconf-eu.heytapdl.com.akamaized.net
 mdp-appconf-euex.heytapdl.com.akamaized.net
 measure.microsoft.com
@@ -2422,14 +2420,12 @@ ogads-pa.googleapis.com
 outbrain.map.fastly.net
 partiality.itunes.apple.com
 paypal.com
-pcx-20808-origin-analytics.preview.developers.cloudflare.com
 performanceparameters.googleapis.com
 pf.events.data.microsoft.com
 phonesubmissions.apple.com
 piwik-bz.apple.com
 pixel-node-europosit-com.akamaized.net
 pixel-rtve.global.ssl.fastly.net
-pjones-r2-error-messages.preview.developers.cloudflare.com
 play-services-telemetry.googleapis.com
 pmdipads-a.akamaihd.net
 pnekru6pxrum-a.akamaihd.net
@@ -2482,7 +2478,6 @@ rddiagnostics-g-sa-r1.wvd.microsoft.com
 rddiagnostics-g-us-r0.wvd.microsoft.com
 rddiagnostics-g-us-r1.wvd.microsoft.com
 rebecca-dns-account-analytics.preview.developers.cloudflare.com
-rebecca-dns-ent-analytics-interval.preview.developers.cloudflare.com
 recaptcha.net
 redge-a.akamaihd.net
 redir.metaservices.microsoft.com
@@ -2621,6 +2616,12 @@ www.d128wldt9dh6cv.cloudfront.net
 www.d15voiknbupdf5.cloudfront.net
 www.d1t0y44clmni6x.cloudfront.net
 www.youtube.com
+wwwdiamondatanet-a.akamaihd.net
+wwwgreygraybiz-a.akamaihd.net
+wwwreversepageco-a.akamaihd.net
+wwwtrolatuntco-a.akamaihd.net
+wwwttessabnet-a.akamaihd.net
+wwwwhilokiinet-a.akamaihd.net
 xgapromomanager-pa.googleapis.com
 youtube.com
 ytimg.com
