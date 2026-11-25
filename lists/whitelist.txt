@@ -231,7 +231,6 @@ d15yg5thi9b6xv.cloudfront.net
 d160mt023h8h3d.cloudfront.net
 d162h6x3rxav67.cloudfront.net
 d162nnmwf9bggr.cloudfront.net
-d1688m7kwucmpz.cloudfront.net
 d169bbxks24g2u.cloudfront.net
 d16fk4ms6rqz1v.cloudfront.net
 d16hi2v1mh7lg7.cloudfront.net
@@ -887,6 +886,7 @@ d2bxqnokimz7h9.cloudfront.net
 d2bxxk33t58v29.cloudfront.net
 d2byenqwec055q.cloudfront.net
 d2byrpuyl3x3q4.cloudfront.net
+d2bzw8l67tx95w.cloudfront.net
 d2c2pscv8ayc0e.cloudfront.net
 d2c4ylitp1qu24.cloudfront.net
 d2c7xlmseob604.cloudfront.net
@@ -2376,7 +2376,6 @@ mdp-appconf-euex.heytapdl.com.akamaized.net
 measure.microsoft.com
 measure.office.com.akamaized.net
 mercury.akamaized.net
-metrics-collector.paypal.com
 metrics-config.icloud.com
 metrics-posts-api.global.ssl.fastly.net
 metrics.apple.com
@@ -2417,6 +2416,7 @@ ogads-pa.googleapis.com
 outbrain.map.fastly.net
 partiality.itunes.apple.com
 paypal.com
+pedro-2025-03-17-update-sec-analytics-labels.preview.developers.cloudflare.com
 performanceparameters.googleapis.com
 pf.events.data.microsoft.com
 phonesubmissions.apple.com

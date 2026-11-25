@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T10:46:44.443757+00:00",
+  "generated_at": "2026-11-25T09:42:49.088478+00:00",
   "scoring": {
     "min_sources": 1,
     "max_entries": 290000,
@@ -9,12 +9,12 @@
   },
   "sources_total": 32,
   "sources_ok": 32,
-  "total_raw_lines": 1365759,
-  "unique_domains_after_parse": 562935,
-  "after_consensus_filter": 562935,
+  "total_raw_lines": 1364583,
+  "unique_domains_after_parse": 562339,
+  "after_consensus_filter": 562339,
   "blocklist_count": 290000,
-  "blocklist_cn_domains": 226413,
-  "blocklist_new_domains": 31773,
+  "blocklist_cn_domains": 230884,
+  "blocklist_new_domains": 25905,
   "whitelist_count": 2645,
   "top_20": [
     {
@@ -196,21 +196,21 @@
     {
       "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
       "ok": true,
-      "domains": 191918,
+      "domains": 192298,
       "weight": 3.0,
       "region": "global"
     },
     {
       "url": "https://small.oisd.nl/",
       "ok": true,
-      "domains": 61090,
+      "domains": 61338,
       "weight": 3.0,
       "region": "global"
     },
     {
       "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt",
       "ok": true,
-      "domains": 261995,
+      "domains": 259685,
       "weight": 3.0,
       "region": "global"
     },
@@ -280,7 +280,7 @@
     {
       "url": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
       "ok": true,
-      "domains": 50670,
+      "domains": 51181,
       "weight": 1.0,
       "region": "west"
     },
@@ -294,7 +294,7 @@
     {
       "url": "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt",
       "ok": true,
-      "domains": 2142,
+      "domains": 2129,
       "weight": 1.0,
       "region": "west"
     },
@@ -315,7 +315,7 @@
     {
       "url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
       "ok": true,
-      "domains": 8266,
+      "domains": 8274,
       "weight": 2.0,
       "region": "cn"
     },
