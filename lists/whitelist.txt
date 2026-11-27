@@ -880,7 +880,6 @@ d2b7n13v8adl6f.cloudfront.net
 d2bbq3twedfo2f.cloudfront.net
 d2bkkt3kqfmyo0.cloudfront.net
 d2bnxibecyz4h5.cloudfront.net
-d2bqow4fb67vs2.cloudfront.net
 d2bs5vtcw2lxsv.cloudfront.net
 d2bvfdz3bljcfk.cloudfront.net
 d2bxqnokimz7h9.cloudfront.net
@@ -1170,7 +1169,6 @@ d2t63xuowhr5jl.cloudfront.net
 d2t72ftdissnrr.cloudfront.net
 d2t77mnxyo7adj.cloudfront.net
 d2t7a3zbo166a9.cloudfront.net
-d2t953dxm5i0o5.cloudfront.net
 d2taktuuo4oqx.cloudfront.net
 d2tbszkvx1p56e.cloudfront.net
 d2tc1zttji8e3a.cloudfront.net
@@ -1203,7 +1201,6 @@ d2v02itv0y9u9t.cloudfront.net
 d2v4wf9my00msd.cloudfront.net
 d2v83son8kay5v.cloudfront.net
 d2va1d0hpla18n.cloudfront.net
-d2vamvrhffvqwc.cloudfront.net
 d2vd3rtal66yy0.cloudfront.net
 d2vh936uogbhhe.cloudfront.net
 d2vig74li2resi.cloudfront.net
@@ -2165,7 +2162,6 @@ ds8v3gllwhqrf.cloudfront.net
 dsb6jelx4yhln.cloudfront.net
 dsbahmgppc0j4.cloudfront.net
 dscex7u1h4a9a.cloudfront.net
-dscrutpyu4zff.cloudfront.net
 dsghhbqey6ytg.cloudfront.net
 dsh1ct2zrfakt.cloudfront.net
 dsh7ky7308k4b.cloudfront.net
@@ -2401,7 +2397,6 @@ noam.events.data.microsoft.com
 notes-analytics-events.apple.com
 notifications-ueeshp-pa.googleapis.com
 notifications.googleapis.com
-ntvaim-a.akamaized.net
 ntvcld-a.akamaihd.net
 nw-umwatson.events.data.microsoft.com
 o209266.ingest.us.sentry.io
@@ -2490,7 +2485,6 @@ s2.youtube.com
 searchads.apple.com
 searchlabspartnerservice-pa.googleapis.com
 securemetrics.apple.com
-securemetrics.us.apple.com
 securemvt.apple.com
 sentry-cdn.com
 sentry.hcaptcha.com
